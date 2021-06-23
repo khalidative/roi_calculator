@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en">
+
+
+<!-- Mirrored from www.samsara.com/resources/roi-calculator by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 20 Jun 2021 06:54:52 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta id='available_locales' data-name="['US', 'UK', 'FR', 'FR-CA', 'CA', 'MX']" data-other="['US', 'UK', 'FR', 'FR-CA', 'CA', 'MX'] ">
+	<meta id='prefix_to_add' data-name='/' data-other='/' content='/'>
+	<meta id='organic_tracking' data-name='' data-other='' content=''>
+	<meta id='should_show_int_banner' data-name='True' data-other='True' content='True'>
+	<meta id='prefix' data-name='' data-other='' content=''>
+<meta name="robots" content="all">
+<meta name="description" content="Calculate your fleet&#39;s savings with our ROI calculator. Request a demo to learn more about our fleet management solution.">
+<link rel="stylesheet" href="../app/css/nitti_grotesk2b9f.css?v=575">
+<script>var roiData = {"CO2Produced": 20, "accident": "accident", "accidentAvoidanceRate": {"name": "Accident avoidance rate", "value": 25}, "accidentCost": {"cars": 15000, "heavyVehicles": 66351, "lightTrucks": 66351, "name": "Average accident cost"}, "accidentFrequency": {"name": "Accident frequency rate", "value": 0.1}, "accidents": "accidents", "averageDistanceDrivenPerVehicle": {"name": "Average mileage per vehicle", "value": 2500}, "billableTimeReduction": {"name": "Billable time reduction", "value": 15}, "billingHourlyRate": {"name": "Billing hourly rate", "value": 24}, "breakdown": "breakdown", "cellularCostPerMonth": {"name": "Cost of cellular data plan", "value": 20}, "currency": "USD", "currencySymbol": "$", "dashCamAnnualLicense": {"name": "Annual License", "value": 660}, "dashCamHardware": {"name": "Hardware", "value": 0}, "dashCamVehicleCount": {"value": 30}, "day": "day", "days": "days", "daysWorked": {"name": "Days in use", "value": 20}, "distance": "miles", "driverExonerationRate": {"name": "Driver exoneration rate", "value": 10}, "drivingFuelConsumption": {"cars": 26, "heavyVehicles": 6.5, "lightTrucks": 18, "name": "Average MPG"}, "drivingFuelConsumptionImprovement": {"name": "Mileage reduction", "value": 4}, "fuelPlural": "gals.", "fuelSingular": "gals.", "gasCostPerUnit": {"name": "Average gas cost", "value": 2.5}, "gpsAnnualLicense": {"name": "Annual License", "value": 468}, "gpsHardware": {"name": "Hardware", "value": 0}, "gpsVehicleCount": {"value": 30}, "hour": "hour", "hourlyLaborCost": {"name": "Hourly labor cost", "value": 32}, "hours": "hrs.", "hoursLostPerBreakdown": {"name": "Hours lost", "value": 2}, "idlingFuelConsumption": {"cars": 0.2, "heavyVehicles": 0.9, "lightTrucks": 0.8, "name": "Gas used while idling"}, "idlingTime": {"name": "Current idling time", "value": 60}, "idlingTimeReduction": {"name": "Idling time reduction", "value": 20}, "maintenanceReduction": {"name": "Maintenance reduction", "value": 50}, "minutes": "mins.", "month": "month", "months": "months", "monthsBetweenBreakdowns": {"name": "Time between breakdowns", "value": 12}, "overtimeAvoided": {"name": "Overtime avoided", "value": 15}, "overtimeHourlyRate": {"name": "Overtime hourly rate", "value": 30}, "people": "ppl.", "selectedVehicle": {"cars": "Cars", "heavyVehicles": "Heavy Vehicles", "lightTrucks": "Light Trucks", "title": "Vehicle Type"}, "vehicle": "vehicle", "vehicles": "vehicles", "week": "week", "workersIdledPerBreakdown": {"name": "Workers idled", "value": 1}, "year": "year", "years": "years"};</script>
+	<link rel='shortcut icon' type='image/x-icon' href="https://s3-us-west-2.amazonaws.com/corpweb-static/img/brand/favicon.ico" />
+	<link rel="preload" href="https://www.samsara.com/app/fonts/roboto-v20-latin-700.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" href="https://www.samsara.com/app/fonts/roboto-v20-latin-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" href="https://www.samsara.com/app/fonts/roboto-v20-latin-500.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" href="https://www.samsara.com/app/fonts/roboto-v20-latin-300.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" href="../app/css/main.min2b9f.css?v=575" as="style">
+	<link rel="preload" href="../app/css/owl.carousel.min2b9f.css?v=575" as="style">
+	
+	
+	<link rel="stylesheet" href="../app/css/main.min2b9f.css?v=575">
+	<title>ROI Calculator</title>
+ 	<script type="text/javascript">
+		window.siteConfig = {
+            'is_eu':false,
+            'locale': 'IN'         };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	</head>
+
+<body id="roi-calculator-page">
+
+<main role="main">
+			<div id="cookie-consent-placeholder"></div>
+<div id="app">
+    <section class="roi-container">
+        <div class="roi-wrapper">
+            <!-- INPUT -->
+            <div id="roi-details" class="roi-input">
+                <h2 class="normal">ROI Calculator</h2>
+                    <p>All ROI projections are based on current Samsara customer averages and are subject to change based on additional data provided to your sales representative. </p>
+                <ul class="list-expandable">
+                        <li id="details-investment">
+                        <div class="expandable-header" tabindex="1" v-on:click="showInvestmentDetails = !showInvestmentDetails">
+                            <h4 class="normal">Investment Details</h4>
+                            <span></span>
+                        </div>
+                        <div v-if="showInvestmentDetails"  id="investment-line-items" class="input-dropdown-container">
+                            <div id="investment--product--gps-fleet-tracking" class="product-line-item visible">
+                                <div class="form-row">
+                                    <div class="product">Vehicle Telematics</div>
+                                    <div class="input-group float-right">
+                                        <input v-model="nv">
+                                        <label for="" class="float-right">vehicles</label>
+                                    </div>
+                                    <ul class="list-flat">
+                                        <li class="dimmed">
+                                            <span class="title"></span>
+                                        </li>
+                                        <li class="dimmed">
+                                            <span class="title"></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                           
+                        </div>
+                        <div v-else></div>
+                    </li>
+                    <!--FLEET-->
+                    <li id="details-fleet">
+                        <div class="expandable-header" tabindex="0" v-on:click="showFleetDetails = !showFleetDetails">
+                            <h4 class="normal">Fleet Details</h4>
+                            <span></span>
+                        </div>
+                        <div v-if="showFleetDetails" style="display: block;" class="input-dropdown-container">
+                            <div class="form-row detail-group">
+                                <ul class="list-flat">
+                                    <li>
+                                        <span class="title">Vehicle Type</span>
+                                        <div class="input-group float-right">
+                                            <div class="select">
+                                                
+                                                <select  @change="vehicleTypeChanged()" v-model = "vt">
+                                                        <option>Cars</option> 
+                                                        <option>Light Trucks</option>
+                                                        <option selected >Heavy Vehicles</option>
+                                                    </select>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="dimmed note form-space-top-3">
+                                        <span>All values below are per vehicle averages.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--Idling-->
+                            <div class="form-row detail-group form-space-top-1">
+                                <div class="title">Idling</div>
+                                <ul class="list-flat">
+                                    <li>
+                                        <span class="title">Current idling time</span>
+                                        <div class="input-group float-right">
+                                            <input v-model="a1">
+                                            <label for="fleet--idling--idle-time">
+                                                mins. / day
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="title">Idling time reduction</span>
+                                        <div class="input-group float-right">
+                                            <input v-model="b1">
+                                            <label for="fleet--idling--idle-time-reduction">%</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="title">Days in use</span>
+                                        <div class="input-group float-right">
+                                            <input v-model="c1">
+                                            <label for="fleet--idling--workdays">
+                                                days / month
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="title">Gas used while idling</span>
+                                        <div class="input-group float-right">
+                                            <input v-model="d1">
+                                            <label for="fleet--idling--gas-use-idling">
+                                                gals. / hour
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="title">Average gas cost</span>
+                                        <div class="input-group currency float-right">
+                                            <input v-model="e1">
+                                            <label for="fleet--idling--gas-cost">
+                                                USD / gals.
+                                            </label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--Mileage-->
+                            <div class="form-row detail-group form-space-top-2">
+                                <div class="title">Mileage</div>
+                                <ul class="list-flat">
+                                    <li>
+                                        <span class="title">Average mileage per vehicle</span>
+                                        <div class="input-group float-right">
+                                            <input v-model="a2">
+                                            <label for="fleet--mileage--vehicle-mileage">
+                                                miles / month
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="title">Average MPG</span>
+                                        <div class="input-group float-right">
+                                            <input v-model="b2">
+                                            <label for="fleet--mileage--vehicle-mpg">
+                                                miles / gals.
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="title">Mileage reduction</span>
+                                        <div class="input-group float-right">
+                                            <input v-model="c2">
+                                            <label for="fleet--mileage--improvement-mpg">%</label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--Maintenance-->
+                            <div class="form-row detail-group form-space-top-2">
+                                <div class="title">Maintenance</div>
+                                <ul class="list-flat">
+                                    <li>
+                                        <span class="title">Time between breakdowns</span>
+                                        <div class="input-group float-right">
+                                            <input v-model="a3">
+                                            <label for="fleet--maintenance--time-between-breakdowns">months</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="title">Workers idled</span>
+                                        <div class="input-group float-right">
+                                            <input v-model="b3">
+                                            <label for="fleet--maintenance--workers-idled">
+                                                ppl. / breakdown
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="title">Hours lost</span>
+                                        <div class="input-group float-right">
+                                            <input v-model="c3">
+                                            <label for="fleet--maintenance--hours-lost">
+                                                hrs. / breakdown
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="title">Hourly labor cost</span>
+                                        <div class="input-group currency float-right">
+                                            <input v-model="d3">
+                                            <label for="fleet--maintenance--hourly-rate-maintenance">
+                                                USD / hour
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="title">Maintenance reduction</span>
+                                        <div class="input-group currency float-right">
+                                            <input v-model="e3">
+                                            <label>%</label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--Driver Productivity-->
+                            <div class="form-row detail-group form-space-top-2">
+                                <div class="title">Driver Productivity</div>
+                                <ul class="list-flat">
+                                    <li>
+                                        <span class="title">Billable time reduction</span>
+                                        <div class="input-group float-right">
+                                            <input v-model="a4">
+                                            <label for="fleet--driver-productivity--billable-time-gained">
+                                                mins. / week
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="title">Overtime avoided</span>
+                                        <div class="input-group float-right">
+                                            <input v-model="b4">
+                                            <label for="fleet--driver-productivity--overtime-avoided">
+                                                    mins. / week
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="title">Overtime hourly rate</span>
+                                        <div class="input-group currency float-right">
+                                            <input v-model="c4">
+                                            <label for="fleet--driver-productivity--overtime-hourly-rate">
+                                                USD / hour
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="title">Billing hourly rate</span>
+                                        <div class="input-group currency float-right">
+                                            <input v-model="d4">
+                                            <label for="fleet--driver-productivity--hourly-rate-field-services">
+                                                USD / hour
+                                            </label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--Cellular-->
+                            <div class="form-row detail-group form-space-top-2">
+                                <div class="title">Cellular Data</div>
+                                <ul class="list-flat">
+                                    <li>
+                                        <span class="title">Cost of cellular data plan</span>
+                                        <div class="input-group currency float-right">
+                                            <input v-model="a5">
+                                            <label for="fleet--cellular--cellular-data-plan">
+                                                USD / month
+                                            </label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div v-else></div>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- OUPUT -->
+            <div class="roi-totals-wrapper roi-output">
+                <div id="roi-totals">
+                    <div id="time-horizon">
+                        <span>Time Horizon</span>
+                        <ul class="nav-pill-tabs inline float-right">
+                            <li v-if="years==1" class="active" tabindex="0">1 year</li>
+                            <li v-else v-on:click="setLicensePeriod(1)" tabindex="0">1 year</li>
+                            <li v-if="years==3" class="active" tabindex="0">3 years</li>
+                            <li v-else v-on:click="setLicensePeriod(3)"tabindex="0">3 years</li>
+                            <li v-if="years==5" class="active" tabindex="0">5 years</li>
+                            <li v-else v-on:click="setLicensePeriod(5)"tabindex="0">5 years</li>
+                        </ul>
+                    </div>
+                    <div id="totals-savings">
+                        <h4>Savings</h4>
+                        <div id="totals-gps-fleet-tracking" class="total-group">
+                            <span class="title">Vehicle Telematics</span>
+                            <ul class="list-flat">
+                                <li class="total-line-item">
+                                    <span class="more-info">
+                                        <span>i</span>
+                                        <div>
+                                            <p class="bold"></p>
+                                            U.S. Dept of Energy studies show that one hour of engine idling can waste nearly a full gallon of gas.
+
+Samsara provides real-time alerts to detect and avoid unnecessary idling, and historical reports showing which drivers are idling excessively.
+                                        </div>
+                                    </span>
+                                    <span class="title">Idle-engine fuel</span>
+                                    <span class="total" id="savings--fuel-idling">${{i1}}</span>
+                                </li>
+                                <li class="total-line-item">
+                                    <span class="more-info">
+                                        <span>i</span>
+                                        <div>
+                                            <p class="bold"></p>
+                                            According to the U.S. EPA, inefficient routes and speeding can significantly impact fuel economy, by up to 33%.
+
+Samsara provides rich visibility to enable fleets to promote safe, fuel-efficient driving behavior and correct unsafe or inefficient driving.
+                                        </div>
+                                    </span>
+                                    <span class="title">Mileage-based fuel</span>
+                                    <span class="total" id="savings--fuel-mileage">${{i2}}</span>
+                                </li>
+                                <li class="total-line-item">
+                                    <span class="more-info">
+                                        <span>i</span>
+                                        <div>
+                                            <p class="bold"></p>
+                                            Accenture, the global consulting firm, estimates that optimizing maintenance and repair practices can save a fleet 10% - 20%.
+
+Samsara provides rich engine diagnostics and centralized visibility of engine faults to help fleets reduce unnecessary servicing, preventing breakdowns and increase utilization.
+                                        </div>
+                                    </span>
+                                    <span class="title">Maintenance</span>
+                                    <span class="total" id="savings--maintenance">${{i3}}</span>
+                                </li>
+                                <li class="total-line-item">
+                                    <span class="more-info">
+                                        <span>i</span>
+                                        <div>
+                                            <p class="bold"></p>
+                                            Samsara provides an in-depth analytics dashboard with tools for routing and dispatching.
+
+This helps fleet managers make better decisions when assigning drivers, enabling them to complete more jobs in the same amount of time.
+                                        </div>
+                                    </span>
+                                    <span class="title">Productivity increase</span>
+                                    <span class="total" id="savings--driver-productivity">${{i4}}</span>
+                                </li>
+                                <li class="total-line-item">
+                                    <span class="more-info">
+                                        <span>i</span>
+                                        <div>
+                                            <p class="bold"></p>
+                                            Samsara gateways include a built-in WiFi hotspot, enabling drivers to connect their laptops and tablets to the Internet.
+
+Samsara includes 500 MB of monthly data at no additional charge - enough for hours of service logs, navigation, work order management, email, etc. This feature provides the value of a stand-alone cellular data plan costing $20 / mo.
+                                        </div>
+                                    </span>
+                                    <span class="title">Cellular data</span>
+                                    <span class="total" id="savings--cellular-data">${{i5}}</span>
+                                </li>
+                                <li class="dimmed total-line-item">
+                                    <span class="title">CO² (lbs)</span>
+                                    <span class="total" id="savings--c02-savings">{{i6}}</span>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                    <div id="totals-return">
+                        <h4>Return</h4>
+                        <div class="total-group">
+                            <ul class="list-flat">
+                                <li class="total-line-item">
+                                    <span class="title">Total Investment</span>
+                                    <span class="total" id="return--total-investment">${{a}}</span>
+                                </li>
+                                <li class="total-line-item">
+                                    <span class="title">Total Savings</span>
+                                    <span class="total" id="return--total-savings">${{b}}</span>
+                                </li>
+                                <hr>
+                                <li class="bold total-line-item">
+                                    <span class="title">Net Savings</span>
+                                    <span class="total" id="return--net-savings">${{c}}</span>
+                                </li>
+                                <li class="bold total-line-item">
+                                    <span class="title">Payback Term (months)</span>
+                                    <span class="total" id="return--payback-term">{{d}}</span>
+                                </li>
+                                <li class="bold total-line-item">
+                                    <span class="title">Return on Investment</span>
+                                    <span class="total" id="return--roi">{{e}}%</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="roi-page-actions">
+                        <a href="https://www.samsara.com/free-trial" class="button button-primary">Get Quote</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+		</main>
+		<div id="get-started-footer" class="visible-m" data-prop="&lt;p&gt;Reduce costs &lt;/p&gt;&lt;p&gt;and improve efficiency&lt;/p&gt;">
+				<a class="button" href="https://www.samsara.com/pricing">CHECK OUR PRICES</a>
+			</div>
+	</div>
+    <script  src="roi-calculator.js" ></script>
+	<!-- <script src="bundle2b9f.js"></script> -->
+</body>
+
+
+<!-- Mirrored from www.samsara.com/resources/roi-calculator by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 20 Jun 2021 06:55:07 GMT -->
+</html>

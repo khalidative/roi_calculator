@@ -1,0 +1,1129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta id='available_locales' data-name="['CA', 'UK', 'IE', 'US', 'CH', 'FR-CH', 'FR', 'CH', 'NL', 'BE', 'FR-CA', 'CA', 'DE', '', 'FR-BE', 'AT', 'UK', 'IE', 'MX']" data-other="['CA', 'UK', 'IE', 'US', 'CH', 'FR-CH', 'FR', 'CH', 'NL', 'BE', 'FR-CA', 'CA', 'DE', '', 'FR-BE', 'AT', 'UK', 'IE', 'MX'] ">
+	<meta id='prefix_to_add' data-name='/' data-other='/' content='/'>
+	<meta id='organic_tracking' data-name='' data-other='' content=''>
+	<meta id='should_show_int_banner' data-name='True' data-other='True' content='True'>
+	<meta id='prefix' data-name='' data-other='' content=''>
+	<meta name="description" content="Samsara’s portfolio of complete IoT solutions combine hardware and software to bring real-time visibility, analytics, and AI to operations across diverse sizes and industries: from transportation and logistics to field services, food production, energy, construction, local governments, and manufacturing.">
+	<link rel='shortcut icon' type='image/x-icon' href="https://s3-us-west-2.amazonaws.com/corpweb-static/img/brand/favicon.ico" />
+	<link rel="preload" href="/app/fonts/roboto-v20-latin-700.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" href="/app/fonts/roboto-v20-latin-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" href="/app/fonts/roboto-v20-latin-500.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" href="/app/fonts/roboto-v20-latin-300.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" href="/app/css/main.min.css?v=575" as="style">
+	<link rel="preload" href="/app/css/owl.carousel.min.css?v=575" as="style">
+	<link rel="preload" href="/app/js/third-party.js?v=575" as="script">
+	<link rel="preload" href="/app/js/nav.js?v=575" as="script">
+	<link rel="stylesheet" href="/app/css/main.min.css?v=575">
+	<link rel="stylesheet" href="/app/css/owl.carousel.min.css?v=575">
+	<title>Samsara - PAGE NOT FOUND</title>
+ 	<script type="text/javascript">
+		window.siteConfig = {
+            'is_eu':false,
+            'locale': 'IN'         };
+	</script>
+	<script src="/app/js/third-party.js?v=575"></script>
+	<script src="https://optimizely.samsara.com/edge-client/v1/15547220277/18954260005" referrerpolicy="no-referrer-when-downgrade"></script>
+</head>
+
+<body class="maison-typo camera-overview 404-page">
+<script>
+    function saveTheme(themeValue, multiLingualCookieSet) {
+        if (multiLingualCookieSet === undefined){
+            multiLingualCookieSet = false
+        }
+        var theme = document.getElementById('prefix_to_add').content;
+        var available_locales = $('#available_locales').data();
+        if (themeValue != "US"){
+            var replacement =  "/" + themeValue.toLowerCase() + "/";
+        }
+        else {
+            var replacement = "/";
+        }
+        if (multiLingualCookieSet){
+            setMultiLingualCookie('multiLingualSelected', true, 365);
+        }
+        if(available_locales && JSON.stringify(available_locales).indexOf(themeValue) < 0){
+            document.location.href = "/";
+        }
+        else {
+            var url = window.location.pathname.replace(theme, replacement)
+            window.location.href = url;
+        }
+    }
+
+    function setMultiLingualCookie(cookieName, cookieValue, nDays) {
+        var today = new Date();
+        var expire = new Date();
+        if (nDays==null || nDays==0)
+            nDays=1;
+        expire.setTime(today.getTime() + 3600000*24*nDays);
+        document.cookie = cookieName+"="+escape(cookieValue) + ";path=/;expires="+expire.toGMTString();
+    }
+
+    function getCookie(cname) {
+        var name = cname + '=';
+        var decodedCookie = decodeURIComponent(document.cookie);
+        var cookie = decodedCookie.split(';');
+        for (var i = 0; i < cookie.length; i++) {
+            var char = cookie[i];
+            while (char.charAt(0) == ' ') {
+                char = char.substring(1);
+            }
+            if (char.indexOf(name) == 0) {
+                return char.substring(name.length, char.length);
+            }
+        }
+        return ''
+    }
+</script><!-- Language Selector Popup -->
+	<div class="site-wrapper">
+    <div id="international-nav" class="main-header">
+        <div id="header-cont-2">
+            <div id="intl-text">Choose another country or region to see content specific to your location</div>
+            <div class="select-and-dismiss">
+                <div id="select-banner-wrap">
+                    <select name="select-region" id="intlselect">
+                        <option value="BE">Belgique</option>
+                        <option value="CA">Canada</option>
+                        <option value="FR-CA">Canada - Français</option>
+                        <option value="DE">Deutschland</option>
+                        <option value="FR">France</option>
+                        <option value="MX">México</option>
+                        <option value="NL">Nederland</option>
+                        <option value="AT">Österreich</option>
+                        <option value="CH">Switzerland</option>
+                        <option value="UK">United Kingdom</option>
+                        <option value="IE">Ireland</option>
+                        <option value="US" selected>United States</option>
+                    </select>
+                </div>
+                <a class="button primary-btn teal" id="intlcnt">
+                    Change country
+                </a>
+                <div class="modal-close" id="intl-banner-modal" onclick="setBannerDismissCookie('intlmodalclose', true)"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function setBannerDismissCookie(cookieName, cookieValue, nDays) {
+            var today = new Date();
+            var expire = new Date();
+            if (nDays==null || nDays==0)
+                nDays=1;
+            expire.setTime(today.getTime() + 3600000*24*nDays);
+            document.cookie = cookieName+"="+escape(cookieValue) + ";path=/;expires="+expire.toGMTString();
+            document.getElementById("international-nav").style.display = "none";
+            analytics.track("International Banner Dismissed");
+        }
+    </script>
+<div id="get-started-header" class="main-header">
+	<div id="header-cont">
+		<a href="/">
+			<img src="//images.ctfassets.net/bx9krvy0u3sx/6V8G7V8dZCwYaMGs2Seys4/e81e482585ffc6219d377eed5a33743c/logo.svg" alt="Samsara Logo" style="height: 40px">
+		</a>
+		<a id="intl-ctn" href="/pricing" class="button primary-btn" title="Check our prices">CHECK OUR PRICES</a>
+	</div>
+</div><header id="static-header-2" class="site-header rally-update maison-typo ">
+	<div class="nav">
+		<div class="wrapper__main-nav row">
+			<div class="wrapper__logo col xs-6 md-3">
+				<a href="/" title="samsara" class="logo">
+					<img src="//images.ctfassets.net/bx9krvy0u3sx/6V8G7V8dZCwYaMGs2Seys4/e81e482585ffc6219d377eed5a33743c/logo.svg" alt="Samsara Logo" class="">
+					<img src="//images.ctfassets.net/bx9krvy0u3sx/2hwGCRfbCqRSteyXyysIum/356a3761737d6098d660c076ea76310c/Group__1_.svg" alt="" class="hidden">
+				</a>
+			</div>
+			<div class="wrapper__nav-links col xs-12 md-6 flex">
+				<div class="drop--nav" data-id="products" alt="Products">
+					<p class="space-bottom-0">Products</p>
+				</div>
+				<div class="drop--nav" data-id="solutions" alt="Solutions">
+					<p class="space-bottom-0">Solutions</p>
+				</div>
+				<div class="drop--nav" data-id="customers" alt="Customers">
+					<p class="space-bottom-0">Customers</p>
+				</div>
+				<div class="drop--nav" data-id="resources" alt="Resources">
+					<p class="space-bottom-0">Resources</p>
+				</div>
+				<div class="drop--nav" data-id="company" alt="Company">
+					<p class="space-bottom-0">Company</p>
+				</div>
+			</div>
+			<div class="wrapper__nav-pricing flex col xs-12 md-3">
+				<div class="login-link">
+					<a href="https://cloud.samsara.com" title="Login">Login</a>
+				</div>
+				<div class="mobile-none try-nav">
+					<a class="primary-btn blue btn--nav" id="menu-main" href="/pricing" title="Check our prices">Check our prices</a>
+				</div>
+			</div>
+			<div class="menu-icon">
+				<div class="menu-box">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper__nav-drawer">
+			<div id="products" class="drawer container">
+				<div class="row">
+					<div class="col xs-12 md-7 flex flex-col">
+						<div class="drop--nav drop--mobile" data-id="products" alt="Products">
+							<p class="space-bottom-0">Products</p>
+						</div>
+						<h5 class="stat-text">Products</h5>
+						<div class="flex flex-wrap space-bottom md-space-bottom-1">
+							<a href="/products/platform" class="link--nav flex half-width" alt="Platform Overview">
+								<span><img src="//images.ctfassets.net/bx9krvy0u3sx/73tOm6topPkjJYQc6LUIKm/ddf435700b7cfc31830f1c99d70fcf21/Platform_Icon.svg"></span>
+								<div>
+									<p class="link--title">Platform Overview</p>
+									<p>The Connected Operations Platform</p>
+								</div>
+							</a>
+							<a href="/products/apps-and-workflows" class="link--nav flex half-width" alt="Apps &amp; Driver Workflows">
+								<span><img src="//images.ctfassets.net/bx9krvy0u3sx/5TAcAG742tMOQTomQ3hX2e/6cc81f4715ee8bc6b041e48fff869e53/App_and_Driver_Workflows_Icon.svg"></span>
+								<div>
+									<p class="link--title">Apps &amp; Driver Workflows</p>
+									<p>Messaging, dispatch, documents, ELD</p>
+								</div>
+							</a>
+							<a href="/products/safety" class="link--nav flex half-width" alt="Video-Based Safety">
+								<span><img src="//images.ctfassets.net/bx9krvy0u3sx/45wHjh4MhyouWFkC8R3ndY/e041d6bdd9b6e02cd14b92859ecc78e5/Video-Based-Safety-Icon.svg"></span>
+								<div>
+									<p class="link--title">Video-Based Safety</p>
+									<p>AI cameras, driver coaching, safety reports, in-cab alerts</p>
+								</div>
+							</a>
+							<a href="/products/equipment-monitoring" class="link--nav flex half-width" alt="Equipment Monitoring">
+								<span><img src="https://images.ctfassets.net/bx9krvy0u3sx/2hBmUm2CWKtQNqlIgstqun/1d4b0649faecf1a3e989f3ac758373c8/Asset-Equipment-Tracking-Icon.svg"></span>
+								<div>
+									<p class="link--title">Equipment Monitoring</p>
+									<p>Location tracking, utilization, continuous diagnostics</p>
+								</div>
+							</a>
+							<a href="/products/telematics" class="link--nav flex half-width" alt="Vehicle Telematics">
+								<span><img src="https://images.ctfassets.net/bx9krvy0u3sx/31eI3uFU9h4xMOsGmPJvwf/64294bca5f14fca4d2ae841fca926140/Vehicle-Telematics-Icon.svg"></span>
+								<div>
+									<p class="link--title">Vehicle Telematics</p>
+									<p>Real-time GPS, routing, fuel, maintenance, electrification</p>
+								</div>
+							</a>
+							<a href="/products/site-visibility" class="link--nav flex half-width" alt="Site Visibility">
+								<span><img src="https://images.ctfassets.net/bx9krvy0u3sx/1ckymA0tbkh35FCZNhFFhz/e5eab6a2f53d3d9337ac93c273872c85/Site-Visibility-Icon.svg"></span>
+								<div>
+									<p class="link--title">Site Visibility</p>
+									<p> Remote visibility, proactive alerting, on-the-go access</p>
+								</div>
+							</a>
+						</div>
+						<a href="/products" class="link-blue" alt="Explore more products">Explore more products »</a>
+					</div>
+					<div class="col xs-12 md-5 border__left flex flex-col">
+						<h5 class="stat-text">Integrations</h5>
+						<div class="flex flex-wrap space-bottom md-space-bottom-1">
+							<a href="/support/developers" class="link--nav flex" alt="Developer API">
+								<span><img src="https://images.ctfassets.net/bx9krvy0u3sx/5JJY6Q1xME9ysP3qdtDR6J/a1dd007545e1a7ec2d248ba7d290fd8c/Developer_API_Icon.svg"></span>
+								<div>
+									<p class="link--title">Developer API</p>
+									<p>Start building with our API</p>
+								</div>
+							</a>
+							<a href="/resources/marketplace/" class="link--nav flex" alt="App Marketplace">
+								<span><img src="https://images.ctfassets.net/bx9krvy0u3sx/1zlCCgF7h845uf85bpvqnd/b454296197471a2c6f3c56843652280d/App-Marketplace-Icon.svg"></span>
+								<div>
+									<p class="link--title">App Marketplace</p>
+									<p>Install turnkey integrations</p>
+								</div>
+							</a>
+							<a href="/products/telematics/oem-integrations" class="link--nav flex" alt="OEM Integrations">
+								<span><img src="https://images.ctfassets.net/bx9krvy0u3sx/29wiR0JXdnWzI3ibbrwnT8/b9b061077e3181713fbb081c6de6aad5/OEM_Marketplace_Icon.svg"></span>
+								<div>
+									<p class="link--title">OEM Integrations</p>
+									<p>Unlock embedded telematics data</p>
+								</div>
+							</a>
+							<a href="/resources/experts/" class="link--nav flex" alt="Experts Marketplace">
+								<span><img src="https://images.ctfassets.net/bx9krvy0u3sx/6MxESwb2YIk223hMza4as1/39950ad35e8cc0d02fa70ffbf9c36d58/Experts-Marketplace.svg"></span>
+								<div>
+									<p class="link--title">Experts Marketplace</p>
+									<p>Find certified Samsara experts</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="solutions" class="drawer container">
+				<div class="row">
+					<div class="col xs-12 md-7 flex flex-col">
+						<div class="drop--nav drop--mobile" data-id="solutions" alt="Solutions">
+							<p class="space-bottom-0">Solutions</p>
+						</div>
+						<h5 class="stat-text">By Business Need</h5>
+						<div class="flex flex-wrap space-bottom md-space-bottom-1">
+							<a href="/solutions/efficiency" class="link--nav flex half-width" alt="Efficiency">
+								<span><img src="https://images.ctfassets.net/bx9krvy0u3sx/2oW34Raa6YA16svwTTmElB/4113de15f3b9ba67effa5da2d6ab2bc4/Efficiency-Icon.svg"></span>
+								<div>
+									<p class="link--title">Efficiency</p>
+									<p>Reduce costs across your business</p>
+								</div>
+							</a>
+							<a href="/solutions/compliance" class="link--nav flex half-width" alt="Compliance">
+								<span><img src="https://images.ctfassets.net/bx9krvy0u3sx/4g8YS9v70UM2Mj01ONdmZR/3caf36cb6d28ebe8a04ff9fa7cd11b7a/Compliance-Icon.svg"></span>
+								<div>
+									<p class="link--title">Compliance</p>
+									<p>Automate regulatory compliance</p>
+								</div>
+							</a>
+							<a href="/solutions/safety" class="link--nav flex half-width" alt="Safety">
+								<span><img src="https://images.ctfassets.net/bx9krvy0u3sx/5Ec4YX6PxoSsFHP6SyXZQ/fe59ae34b3fba645ec32e6bddf5777f4/Safety-Icon.svg"></span>
+								<div>
+									<p class="link--title">Safety</p>
+									<p>Ensure safety wherever you operate</p>
+								</div>
+							</a>
+							<a href="/solutions/security" class="link--nav flex half-width" alt="Security">
+								<span><img src="https://images.ctfassets.net/bx9krvy0u3sx/VtN3pkl2cwqW6LNTolJWK/ade8067e10f6f0a3356517037a6db6d5/Security-Icon.svg"></span>
+								<div>
+									<p class="link--title">Security</p>
+									<p>Identify and eliminate risks</p>
+								</div>
+							</a>
+							<a href="/solutions/sustainability" class="link--nav flex half-width" alt="Sustainability">
+								<span><img src="https://images.ctfassets.net/bx9krvy0u3sx/5EyoCeccCVdOOdU9QlQXpD/07ded3afb4da9d9799c27a39a6bca6cf/Sustainability-Icon.svg"></span>
+								<div>
+									<p class="link--title">Sustainability</p>
+									<p>Prepare for transition to renewables</p>
+								</div>
+							</a>
+							<a href="/solutions/customer-experience" class="link--nav flex half-width" alt="Customer Experience">
+								<span><img src="https://images.ctfassets.net/bx9krvy0u3sx/1XeYzzzQOhRHFvAIBDHYJR/0749350defa9d55e9a25b2baa13b9682/Customer-Experience-Icon.svg"></span>
+								<div>
+									<p class="link--title">Customer Experience</p>
+									<p>Build customer loyalty and retention</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col xs-12 md-5 border__left flex flex-col">
+						<h5 class="stat-text">By Industry</h5>
+						<div class="flex flex-wrap space-bottom md-space-bottom-1">
+							<a href="/industries/logistics" class="link--nav flex" alt="Transportation &amp; Logistics">
+								<span><img src="https://images.ctfassets.net/bx9krvy0u3sx/76g2poyFZSIkguvxZy4ydX/9df6671d20451ec69033d9bc287fd96e/Transportation-Logistics-Icon.svg"></span>
+								<div>
+									<p class="link--title">Transportation &amp; Logistics</p>
+									<p></p>
+								</div>
+							</a>
+							<a href="/industries/food-and-beverage" class="link--nav flex" alt="Food &amp; Beverage">
+								<span><img src="https://images.ctfassets.net/bx9krvy0u3sx/3s8h82UwS44RCrQXkEohcW/09036f174c31f6cc9a4b0402eddc6597/Food-Beverage-Icon.svg"></span>
+								<div>
+									<p class="link--title">Food &amp; Beverage</p>
+									<p></p>
+								</div>
+							</a>
+							<a href="/industries/construction" class="link--nav flex" alt="Construction">
+								<span><img src="https://images.ctfassets.net/bx9krvy0u3sx/3y7JiRhbVPKZ4onwGT7MOy/eb106e438483da6f031b54bf2f7e31d4/Construction_Icon.svg"></span>
+								<div>
+									<p class="link--title">Construction</p>
+									<p></p>
+								</div>
+							</a>
+							<a href="/industries/state-local-government" class="link--nav flex" alt="Government">
+								<span><img src="https://images.ctfassets.net/bx9krvy0u3sx/hQn5QXGE6F5y5alW7iYF1/03adee9731cc3d50b32af9db9d1038ab/Government-Icon.svg"></span>
+								<div>
+									<p class="link--title">Government</p>
+									<p></p>
+								</div>
+							</a>
+							<a href="/industries/k-12" class="link--nav flex" alt="K-12 Transportation">
+								<span><img src="https://images.ctfassets.net/bx9krvy0u3sx/3g7yr3d3a7lU7ZRz3iHkdl/74ea9743592cac27283301ec7d60a8cc/School-Transportaion-Icon.svg"></span>
+								<div>
+									<p class="link--title">K-12 Transportation</p>
+									<p></p>
+								</div>
+							</a>
+							<a href="/industries/higher-education" class="link--nav flex" alt="Higher Education">
+								<span><img src="https://images.ctfassets.net/bx9krvy0u3sx/2C1wwYUrFJ8mHRrLGtFmwP/7e019cd09241b17981efbdeca3f9c69f/Higher-Education-Icon.svg"></span>
+								<div>
+									<p class="link--title">Higher Education</p>
+									<p></p>
+								</div>
+							</a>
+							<a href="/industries/passenger-transit" class="link--nav flex" alt="Passenger Transit">
+								<span><img src="https://images.ctfassets.net/bx9krvy0u3sx/4IrbirVGj2z5rYvNY9mMxP/a997fb68c87af1bc55ac7add9bcf5806/Passenger_Transit_Icon.svg"></span>
+								<div>
+									<p class="link--title">Passenger Transit</p>
+									<p></p>
+								</div>
+							</a>
+							<a href="/industries/field-services" class="link--nav flex" alt="Field Services Fleets">
+								<span><img src="https://images.ctfassets.net/bx9krvy0u3sx/50IiKQLEvwSXucMtbXpTuS/86e68ebaf37f2422cb86bd81d7720856/Field_Services_Fleet_Icon.svg"></span>
+								<div>
+									<p class="link--title">Field Services Fleets</p>
+									<p></p>
+								</div>
+							</a>
+							<a href="/industries/utilities" class="link--nav flex" alt="Utilities">
+								<span><img src="https://images.ctfassets.net/bx9krvy0u3sx/5RYMD5vfd7WoRPOiQLBfhY/7725908fe680c73d998ec36cac7aa994/Utilities-Icon.svg"></span>
+								<div>
+									<p class="link--title">Utilities</p>
+									<p></p>
+								</div>
+							</a>
+							<a href="/industries/oil-gas" class="link--nav flex" alt="Oil &amp; Gas">
+								<span><img src="https://images.ctfassets.net/bx9krvy0u3sx/5BYajH7nczGlRT4iinVaBY/811b8dea162af73943bfbbdc63d279d3/OilandGas-Icon.svg"></span>
+								<div>
+									<p class="link--title">Oil &amp; Gas</p>
+									<p></p>
+								</div>
+							</a>
+							<a href="/industries/water-wastewater" class="link--nav flex" alt="Water &amp; Wastewater">
+								<span><img src="https://images.ctfassets.net/bx9krvy0u3sx/2Q6fSOqY0wwnIPJ3l87Jak/4b00889eeb6ed7a859ba31477fcd21b6/Waste-Wastewater-Icon.svg"></span>
+								<div>
+									<p class="link--title">Water &amp; Wastewater</p>
+									<p></p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="customers" class="drawer container">
+				<div class="row">
+					<div class="col xs-12 md-3 flex flex-col">
+						<div class="drop--nav drop--mobile" data-id="customers" alt="Customers">
+							<p class="space-bottom-0">Customers</p>
+						</div>
+						<h5 class="stat-text">Customer Success</h5>
+						<div class="flex flex-wrap space-bottom md-space-bottom-1">
+							<a href="/support/customerservices" class="link--nav flex" alt="Overview">
+								<div>
+									<p class="link--title">Overview</p>
+									<p></p>
+								</div>
+							</a>
+							<a href="/customers/" class="link--nav flex" alt="Customer Stories">
+								<div>
+									<p class="link--title">Customer Stories</p>
+									<p></p>
+								</div>
+							</a>
+							<a href="/support/training" class="link--nav flex" alt="Education &amp; Training">
+								<div>
+									<p class="link--title">Education &amp; Training</p>
+									<p></p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col xs-12 md-3 flex flex-col">
+						<h5 class="stat-text">Customer Support</h5>
+						<div class="flex flex-wrap space-bottom md-space-bottom-1">
+							<a href="https://kb.samsara.com/hc/en-us" class="link--nav flex" alt="Help Center">
+								<div>
+									<p class="link--title">Help Center</p>
+									<p></p>
+								</div>
+							</a>
+							<a href="/support/developers" class="link--nav flex" alt="Developer Portal">
+								<div>
+									<p class="link--title">Developer Portal</p>
+									<p></p>
+								</div>
+							</a>
+							<a href="/customers/tips/" class="link--nav flex" alt="Customer Tips">
+								<div>
+									<p class="link--title">Customer Tips</p>
+									<p></p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col xs-12 md-3 flex flex-col">
+						<h5 class="stat-text">Case Study Highlight</h5>
+						<div class="flex flex-wrap space-bottom md-space-bottom-1">
+							<a href="/customers/certarus" class="link--nav flex flex-col article--featured" alt="Certarus">
+								<span><img class="filter--none" src="https://images.ctfassets.net/bx9krvy0u3sx/1lYQU9xmdMtGZ4iBn8CgmZ/2e140763670cfcb9c4c49aabff9fb890/Certarus-TopNav.jpg"></span>
+								<div>
+									<p class="link--title">Certarus</p>
+									<p>Certarus uses the Connected Operations Platform to minimize downtime and provide top-tier customer service.</p>
+									<p class="link-blue">Read more ➔</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col xs-12 md-3 flex flex-col">
+						<h5 class="stat-text">Top Fleets 2020</h5>
+						<div class="flex flex-wrap space-bottom md-space-bottom-1">
+							<a href="/customers/topfleets/2020/fleet-innovator" class="link--nav flex flex-col article--featured" alt="ABF Freight">
+								<span><img class="filter--none" src="https://images.ctfassets.net/bx9krvy0u3sx/10R4llDvC8L5SzGVeT4ui6/f2c01bba1f1f22e2e207410ac1078c69/ABF-Freight__1_.jpg"></span>
+								<div>
+									<p class="link--title">ABF Freight</p>
+									<p>Learn how ABF automates repetitive tasks, improves data accuracy, and increases overall safety and efficiency.</p>
+									<p class="link-blue">Read more ➔</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="resources" class="drawer container">
+				<div class="row">
+					<div class="col xs-12 md-3 flex flex-col">
+						<div class="drop--nav drop--mobile" data-id="resources" alt="Resources">
+							<p class="space-bottom-0">Resources</p>
+						</div>
+						<h5 class="stat-text">Resources</h5>
+						<div class="flex flex-wrap space-bottom md-space-bottom-1">
+							<a href="/blog/" class="link--nav flex" alt="Blog">
+								<div>
+									<p class="link--title">Blog</p>
+									<p></p>
+								</div>
+							</a>
+							<a href="/webinars/" class="link--nav flex" alt="Webinars">
+								<div>
+									<p class="link--title">Webinars</p>
+									<p></p>
+								</div>
+							</a>
+							<a href="/resources/videos" class="link--nav flex" alt="Video Library">
+								<div>
+									<p class="link--title">Video Library</p>
+									<p></p>
+								</div>
+							</a>
+							<a href="/resources/tour" class="link--nav flex" alt="Product Tours">
+								<div>
+									<p class="link--title">Product Tours</p>
+									<p></p>
+								</div>
+							</a>
+							<a href="/resources/roi-calculator" class="link--nav flex" alt="ROI Calculator">
+								<div>
+									<p class="link--title">ROI Calculator</p>
+									<p></p>
+								</div>
+							</a>
+							<a href="/guides/fleet-safety" class="link--nav flex" alt="Fleet Safety Guide">
+								<div>
+									<p class="link--title">Fleet Safety Guide</p>
+									<p></p>
+								</div>
+							</a>
+							<a href="/guides/fleet-savings/" class="link--nav flex" alt="Fleet Savings Guide">
+								<div>
+									<p class="link--title">Fleet Savings Guide</p>
+									<p></p>
+								</div>
+							</a>
+							<a href="/guides/" class="link--nav flex" alt="Guides">
+								<div>
+									<p class="link--title">Guides</p>
+									<p></p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col xs-12 md-3 flex flex-col">
+						<h5 class="stat-text">Guide</h5>
+						<div class="flex flex-wrap space-bottom md-space-bottom-1">
+							<a href="/guides/your-partner-for-the-road-ahead" class="link--nav flex flex-col article--featured" alt="The Road Ahead">
+								<span><img class="filter--none" src="https://images.ctfassets.net/bx9krvy0u3sx/1xwuey9HF7b5b7PwlVfisH/71f91d36e619ca183c5c13a7792d9c81/TheRoadAhead-nav.jpg"></span>
+								<div>
+									<p class="link--title">The Road Ahead</p>
+									<p>Reduce costs and prepare for the future with a data-driven guide for connecting your operations.</p>
+									<p class="link-blue">Read more ➔</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col xs-12 md-3 flex flex-col">
+						<h5 class="stat-text">Webinar</h5>
+						<div class="flex flex-wrap space-bottom md-space-bottom-1">
+							<a href="/webinars/samsara-quarterly-06-24-2021" class="link--nav flex flex-col article--featured" alt="Samsara Quarterly">
+								<span><img class="filter--none" src="https://images.ctfassets.net/bx9krvy0u3sx/7hJyTrGYgtNXR3MX8g6XBa/d12fd2475ca806028431a06584a34b95/new_size.jpg"></span>
+								<div>
+									<p class="link--title">Samsara Quarterly</p>
+									<p>Learn about Samsara’s recent product releases and how to use them directly from our product experts.</p>
+									<p class="link-blue">Read more ➔</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col xs-12 md-3 flex flex-col">
+						<h5 class="stat-text">Innovation</h5>
+						<div class="flex flex-wrap space-bottom md-space-bottom-1">
+							<a href="/insights/cities" class="link--nav flex flex-col article--featured" alt="City Insights">
+								<span><img class="filter--none" src="https://images.ctfassets.net/bx9krvy0u3sx/3TVTjIr8RvCX0PZcUOZHsE/3b4dc7382397ea38a1e0414744d8e02e/City-Insights-nav.jpg"></span>
+								<div>
+									<p class="link--title">City Insights</p>
+									<p>City leaders, urban planners, and public works officials are turning to technology to connect their cities&#39; operations.</p>
+									<p class="link-blue">Read more ➔</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="company" class="drawer container">
+				<div class="row">
+					<div class="col xs-12 md-3 flex flex-col">
+						<div class="drop--nav drop--mobile" data-id="company" alt="Company">
+							<p class="space-bottom-0">Company</p>
+						</div>
+						<h5 class="stat-text">Company</h5>
+						<div class="flex flex-wrap space-bottom md-space-bottom-1">
+							<a href="/company/about" class="link--nav flex" alt="About">
+								<div>
+									<p class="link--title">About</p>
+									<p></p>
+								</div>
+							</a>
+							<a href="/company/careers" class="link--nav flex" alt="Careers">
+								<div>
+									<p class="link--title">Careers</p>
+									<p></p>
+								</div>
+							</a>
+							<a href="/company/diversity" class="link--nav flex" alt="Diversity">
+								<div>
+									<p class="link--title">Diversity</p>
+									<p></p>
+								</div>
+							</a>
+							<a href="/company/news" class="link--nav flex" alt="News">
+								<div>
+									<p class="link--title">News</p>
+									<p></p>
+								</div>
+							</a>
+							<a href="/resources/brand-assets" class="link--nav flex" alt="Brand Assets">
+								<div>
+									<p class="link--title">Brand Assets</p>
+									<p></p>
+								</div>
+							</a>
+							<a href="/company/contact" class="link--nav flex" alt="Contact">
+								<div>
+									<p class="link--title">Contact</p>
+									<p></p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col xs-12 md-9 flex flex-col">
+						<h5 class="stat-text">Featured News</h5>
+						<div class="flex flex-wrap space-bottom md-space-bottom-1">
+							<a href="https://www.freightwaves.com/news/samsara-hits-milestone-with-300m-run-rate" class="link--nav flex thirds-width flex-col article--featured" alt="Samsara Hits $300m Run Rate" target="_blank">
+								<span><img class="filter--none" src="https://images.ctfassets.net/bx9krvy0u3sx/68gH92AKIPJNDHRUKBTouN/fa1e117fd0e84759313834335714235a/300m-runrate.jpg"></span>
+								<div>
+									<p class="link--title">Samsara Hits $300m Run Rate</p>
+									<p class="link-blue">Read more ➔</p>
+								</div>
+							</a>
+							<a href="https://www.prnewswire.com/news-releases/samsara-recognized-by-forbes-as-one-of-americas-best-startup-employers-301243687.html" class="link--nav flex thirds-width flex-col article--featured" alt="Samsara Recognized By Forbes As One of America&#39;s Best Startup Employers" target="_blank">
+								<span><img class="filter--none" src="https://images.ctfassets.net/bx9krvy0u3sx/3n72kteTG2sh95zIfvtKYY/e966cc7ef2b9209f3718522532f1ceb8/Forbes-Startup.jpg"></span>
+								<div>
+									<p class="link--title">Samsara Recognized By Forbes As One of America&#39;s Best Startup Employers</p>
+									<p class="link-blue">Read more ➔</p>
+								</div>
+							</a>
+							<a href="https://www.prnewswire.com/news-releases/sue-bostrom-joins-samsaras-board-of-directors-301254372.html?tc=eml_cleartime" class="link--nav flex thirds-width flex-col article--featured" alt="Sue Bostrom Joins Samsara&#39;s Board of Directors" target="_blank">
+								<span><img class="filter--none" src="https://images.ctfassets.net/bx9krvy0u3sx/3SM5vxpAp9ObwUsTsxcKms/79cb90d6893364d8cb21f0617b0d1ece/Sue-Bostrom.jpg"></span>
+								<div>
+									<p class="link--title">Sue Bostrom Joins Samsara&#39;s Board of Directors</p>
+									<p class="link-blue">Read more ➔</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="nav-stop"></div>
+</header>		<main role="main">
+			<div id="cookie-consent-placeholder"></div>
+<div class="ohfour-container">
+	<div class="container content">
+		<div class="row">
+			<div class="xs-12 col md-5">
+				<h5 class="teal-text">PAGE NOT FOUND</h5>
+				<h1 style="font-size:80px;">404 Error</h1>
+				<div class="space-top-1 space-bottom-1" style="width:70px;border-bottom:1px solid #1dcad3;"></div>
+				<p class="dark-blue-text large-p space-top-2">Looking for something else? Samsara can help you track those assets down.<a class="link-arrow teal-text space-top" style="display:block" href="/">See how</a></p>
+
+			</div>
+		</div>
+	</div>
+	<div class="svg-canvas">
+		<svg enable-background="new 0 0 1440 1800" viewBox="0 0 1440 1800" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMinYMin slice">
+			<clipPath id="a">
+				<path d="m0 1h1444v1799h-1444z" />
+			</clipPath>
+			<path d="m0 1h1444v1799h-1444z" fill="#00263e" />
+			<g fill="none" stroke-miterlimit="10">
+				<g opacity=".35" stroke="#f0f6fe">
+					<path clip-path="url(#a)" d="m787.5-528.3s6.6 25.1 5.3 40.7c-1.3 15.5 12.7 30 14.6 35.9s9.2 16.2 10 33.3c.7 17.2-11.6 22.9-24.4 37.5 0 0-9 17.1-14.2 25.1-5.3 8 3.4 40.9 2 59.4-1.3 18.5.8 28.5-3.5 51.5s-12.3 22.1-22.3 45.4c-16.1 37.5-35.2 22.3-34.9 52 .2 32.5 26.4 198 57.9 247.1 27.4 42.7 116.5 103 119.9 125 3 19-33.7 36.8-19.1 70 7.5 16.9 17.6 46.1 15.8 69.5-.6 7.8-25 20.4-29 35.8-6.4 24.9-35.1 61.2-61.9 110.6-17.2 31.7-11.5 88.3-31.7 122.4-66.8 112.9-86 184.6-86 184.6-14.2 46.4-25.3 67.8-25.7 78.3s-11.9 76.1-14.2 81c-10.2 21.4-15 27.5-29.7 50.1s-17.6 29.1-23.3 33.4-11.3 8.7-15 3.6 4-30 1-34.6-16.2-1.8-22-4.3-26.2 13.5-35.9 31.2 32.3 69.9 36.3 97.4c5.2 35.5-2.7 48.4-2.7 48.4-8.5 13.7-14.9 37.9-8.5 39.3s29.3 8.6 35.9 8.9 9.6 12.1 6.9 19.3-26.8 87.6-33.7 93.9-31.4 42.1-35.1 49.1-29.3 99.3-41.1 102.3-19.9 55.7-18.3 63.9-5.2 70.1-11.9 75.3-21.6 17.6-34.1 23.7c-12.5 6.2-50.8 56-63.8 54.3s-33.5.5-33.2-6.1-2.1-26 3.9-28.1c6-2 20.2-11.2 23.3-15 3-3.8-12.3-14.9-18.1-13.9s-61.2 44.3-67.2 53.3c-26.2 38.8-57.3 64.3-84.3 67.9-9.2 1.2-64.6-25.2-73.1-27s-46.6 22.7-58.2 24.6c-11.5 1.9-120.4 21.7-120.4 21.7"
+					  stroke-dasharray="61.0305 2.4412" stroke-width=".75" />
+					<path clip-path="url(#a)" d="m450.2-174.9c-9.1 34.9 9.9 88.4-1.5 126.5-37.8 125.6-39.4 199.9-39.4 199.9-2.7 48.5-8.3 71.9-6.2 82.2s6.6 76.8 5.5 82.1c-4.8 23.2-8 30.3-16.9 55.8-8.8 25.5-10.1 32.5-14.6 38-4.5 5.6-8.9 11.1-13.7 7s-3.3-30.1-7.3-33.8-16.2 2.1-22.4 1.1-22.2 19.3-27.4 38.8 5.1 26.2-5 60.6-13.5 48.1-13.5 48.1l-24.6 63.9s-8.6 10.7-10.1 25.9c-1.4 15.2-12 64.3-11.9 72.3s12.8 12.9 13.1 30.1 9.2 34.8 3 47.3-54.5 102.4-61.5 118-27.3 46.2-30.4 51.7c-9.5 17.3-26.6 29.1-31.7 42.5s-33.8 99.4-35.7 107.9c-1.8 8.5-19.9 81.3-18.2 93.9s-17.5 65.2-23.3 66.1-60.8 29.1-69 36.2-14.2 34.7-26.8 36.4-102.2 4.5-111.8 2.4-32.7-18.2-38.9-20.7c-6.1-2.4-158.3-44.4-168.7-47.8s-156.9-25.2-247.3-13.7"
+					  stroke-dasharray="61.0305 2.4412" stroke-width=".75" />
+					<path clip-path="url(#a)" d="m172.5-72.3s-11.7 15.3-18.2 22.4-3.6 40.9-8 58.9-4 28.2-12 50.2c-8.1 22-15.8 19.7-29.6 41.1-22.2 34.3-38.4 16.1-43 45.4-5.1 32.2-6.8 199.7 16.1 253.4 19.9 46.7 97.7 121 97.4 143.2-.2 19.2-39.4 30.7-30.5 65.8 4.5 18 9.7 48.4 4 71.1-1.9 7.6-28.1 15.9-34.6 30.4-10.5 23.5-44.8 54.5-79.4 98.7-22.3 28.5-24.4 86.7-51.7 115.5-44.3 46.6-44.8 75.7-44.8 75.7-21.7 43.4-36.2 62.7-38.4 72.9s-23.8 73.6-27.5 77.5c-6.1 6.3-16.1 18.8-24.5 17s-24.7-14.1-34.5-16.3c-9.8-2.1-60.1-5.8-75-4.6s-32.3 7.6-48.6 8.4c-16.3.9-27.9-6.1-27.8-13.3.1-7.3-22.9-2.1-30.2-2.2s-119.1 3.4-138.3 10.9-121.5 27.7-134.9 29.2c-13.5 1.5-29.8 9.6-45.5 7.7s-159.9-4-159.9-4"
+					  stroke-dasharray="4 2" />
+					<path clip-path="url(#a)" d="m251-55.3s-8 15.6-12.5 22.7c-4.4 7.2-3.2 40.9-6.5 59s-3.2 28.2-9 50.3-10.8 20-20.4 41.7c-15.3 34.7-25.6 16.9-29.3 46.3-2.2 17.8-7.3 83.7-8.4 136.8-.3 12-10.8 11-10.7 22.6.3 29.8 13.2 57.4 17.7 74.5 12.1 46.2 68.1 137.4 67.4 159.6-.6 19.2-26.6 31.5-21.5 66.4 2.6 17.8 5.3 48.1 1.1 71-1.4 7.7-18.8 16.5-23.4 31.2-7.4 23.7-30.7 55.4-54.4 100.3-15.3 28.8-19 85.5-36.5 116.4-57.9 101.9-79.7 170-79.7 170-15.2 43.8-25.2 63.4-26.8 73.7s-24.5 46.1-29.2 47c-10.7 2.1-19.8 10.3-23 18.4s-11.3 25.3-17.2 25.5-18.7-1.1-27.1-3c-8.4-1.8-71.4-55-85-59.4s-227.7-1.2-305.5-6.4-101.7 4.2-106.5 6.1-11.1 10.7-21.8 12.8-55 4.1-68.4 5.6c-13.5 1.5-75.5-9.1-75.5-9.1"
+					  stroke-dasharray="61.0305 2.4412" stroke-width=".75" />
+					<path clip-path="url(#a)" d="m690.3-187.8c7.6 9.3 14.7 20.3 3.9 43.4s-8.9 23.5-8.1 48.7c7.7 228.5 117.8 302.5 147.1 338.7 19.2 23.8 31.4 65.3 32.8 74.6 2.8 18.5-15.1 47-26.7 91.8-5.7 21.9-49.2 72.8-55.5 90.8-2.8 7.9-.1 17.8-5.1 25.4-43.4 67.3-98.3 147.6-142.4 211.1-44.3 63.8-64.6 126.3-64.6 126.3-7.2 12.9-21.2 41-21.2 41-5.6 12.5-13.9 11.8-35 37s-3.9 35.5-10.7 46.8c-6.7 11.2-19.5 39.8-30.5 45.4-11.1 5.6-28.4-17.1-47.2 2.3-18.7 19.4-20.2 17.1-36.5 41.7s-42.9 66.5-42.9 66.5c-2 17.3 2 44.9.3 57.9s23.9 156.5 12.8 207.4-42.9 120.8-48 128.6-19.3 17-24.8 16.9-15.2 18.9-30.4 22.3-101.8 17.9-119.2 16.4-97.5-6.7-213.3 29.3c-115.7 36-301.3 40.2-301.3 40.2"
+					  stroke-dasharray="61.0305 2.4412" stroke-width=".75" />
+					<path clip-path="url(#a)" d="m632.6-148.8c11.4 41.8 6.2 54.2 14.1 65.9 8 11.7 7.5 73.6 14.3 91.7 22.7 60.7 30.6 106.3 61.3 156.2 6.6 10.8 27.2 84.5 38.4 94 16 13.5 22.1 15.4 34 23.3 10.3 6.8 14.7 18.3 21.8 29.3 9.2 14.3-6.6 46.6-16.7 84.9-3.5 13.2-35.4 98.3-118.7 203.4-90.8 114.6-113.3 137.8-113.3 137.8-5.5 11.1-24 48.3-30.1 54.5s-15.6-6.8-27.8 4.4c-12.3 11.3-16.3 24.6-24.4 34.8s-10 115.5-22.5 129.8-31.1 23.9-40 32.3-70.9 89.4-79.3 109.4c-14.7 35-21.9 45.1-23.2 66.5s-4 164.3-7.1 178.6-17.3 79.7-27 85.9.9 41.9-1.9 54.7c-2.8 12.7-30.3 31.8-39.3 34.9-9 3-70.5-13.6-78.8-13.8-8.3-.1-97.3 2.2-111.4 5.8s-89.6 43.9-107.6 50-151 42.3-242.4 40.8-230.6-36.7-230.6-36.7"
+					  stroke-dasharray="4 2" />
+					<path clip-path="url(#a)" d="m-611 1522.8c251.5 32.9 414.1-16.9 436.5-20.3 22.5-3.5 165.3-54.2 177.5-56.6s120.3-.6 130.5-1.7c10.3-1.1 46.4-21.6 51.1-35.6s9-41.4 13.7-55.4 15.3-131.8 17.4-141.4-10.3-37.3 13.5-100.5c0 0 171.2-395.6 216.2-423.2 10-6.2-.7-34.4 6.9-36.1 17.4-3.8 76.5-100.2 92.1-108.6 103.1-54.9 113.3-129.5 130.3-157.7 6.3-10.4 15.5-101.3 9.2-114.1-15.9-31.9-36.6-45.2-36.4-74.5.2-24.7-29.5-73.8-29.5-73.8s-26.2-17.7-28.6-4.7-1.7 43.1-3.2 55.7c-2.3 20.3 42.1 54.2 41.3 71.2-.9 17 18.8 93.2 9.2 110.5s-27.5 63.1-28.7 71.1c-1.9 12.5-36 36.3-43.7 40.6-17.7 9.8-48.7 8.9-58.4 8.7s-31.5-16.6-40.5-10.8c-9.1 5.8-40.4 24.4-44.2 33.3-3.9 8.9-46.1 77.7-53.5 93.6s-60.6 144.7-62.3 152.1-6.1 27.9-7.7 35.4-73.7 141.8-80 161.9-19.4 44.5-23.3 53.4 4.2 16.5-.9 31-11.5 61.8-13.5 71.1-20.8 15-22 20.6-24.3 94.1-24.5 103.8-2.7 75.4-3.7 88.8-42.2 68.8-50.9 72.7c-8.7 4-145.2 40.6-165.4 44s-164.4 3.3-174.1 3.1-16.8-21.2-29.5-25.9c-12.6-4.7-18.4-13.7-31.5-16.6s-50.2-10.9-64.7-16-59.7-3.2-59.7-3.2-31.6 37.9-41.1 45.6-208.8 1.4-216.6 1.7"
+					  stroke-dasharray="61.0305 2.4412" stroke-width=".75" />
+					<path clip-path="url(#a)" d="m1484.7-539.3s-79.7-27.3-97.5-32.3-63.4-10.4-70.2-9.7-22.1 9.7-32.7 17.4-85.8 21.4-97.8 25.5-33.6 21.6-41.2 31.1-11.2 20.9-16.2 40c0 0-2.8 7.7-4.6 14.1-1.7 6.4-8 43.4-14.3 63.8s-14.1 26-14.1 26-52 178.3-56.8 211.9c-1 7.2-51.4 39.9-55.2 48.3s15 18.4 20.9 21c6.3 2.8 81.1-6.5 88.4 7.9 8.3 16.5 7.6 40.8 17.9 62.5 4 8.6 8.2 17.6 12.5 27.1 15.7 34.7 66.9 75.6 84.3 123.8 33.5 93.1-8.3 304.3-20.2 325-23.9 41.7-39.7 40.7-95.7 123.3-8.6 12.7-14.3 76.1-16.9 82-38.9 85.4-36.4 88.2-53.4 119-5.5 9.9-10.9 29.9-10.8 34.4s9.1 19.8 12.8 22.8c3.8 3 11.8 163.1 8.7 172.4s-25.8 30.1-27.2 42c-1.5 11.9 30.9 41.3 3.7 74.3s-75.5 86.5-75.2 95.4c.3 9-9.7 34.6-5.8 42.1s10.5 23.4 10.5 23.4c16 5.7 22-6.4 30.6-7.8s16.6-14.8 41.8-15.9c25.3-1.2 40.2-16.3 53.1-21.8s91.8-.1 107.1-16.8 60.9-88.5 73.6-100.8 107.3-51.3 131-73.3c51.5-47.8 130.4-55.1 188.5-84.2 58-29.1 111.5-52.5 136-80.6s71.1-143.1 71.1-143.1c7.4-15.8 22.9-19.7 32.2-22.1s37.8.9 46.8-.1 40.3-17.5 43.6-25.6 41.5-103.5 43.9-114.7-13.3-59.9-18.5-82.9c-5.2-23.1-47.1-84.8-45.7-99.1 1.6-16.2 16.6-76.3 20.7-86.1s14.9-10.4 19.9-15.2 28.7-64.9 32.8-74.7-6.9-35.6-4.5-41.9 18.8-64.1 39.1-81.1 71.2-58.6 79.1-63.7 36.4-24.2 46.6-25.9c10.1-1.7 12.3-11.9 20.6-14s128.3-20.9 138.6-23.5 24.1-12.3 26.7-19.5 17.3-39.1 23.7-46.5c6.5-7.4 14.6-27 12.9-37.1s-20.2-41.4-18.9-51.9c1.3-10.4 57.8-190.1 61.4-193.2"
+					  stroke-dasharray="4 2" />
+					<path clip-path="url(#a)" d="m1608.3-473.5s-84.1-7.1-104.5-10.5c-20.4-3.3-109.1-40.4-121.6-44.2s-79.2-9.4-88.1-9.1c-9 .3-34.2 19.3-40 20.2-5.8 1-21.7 13.1-23.6 21.6-1.8 8.5-8.1 37.2-10.7 56.8 0 0-9.4 20.2-16.3 30.2s-22 24.6-26.8 20.9c-4.7-3.8-23.8 2.1-30.3 12.9 0 0-13.7 128.5-8.2 233 .6 11.8 18.4 30.2 19 41.1 2.3 43.2 128 75.2 128.4 85 1.4 33.8-113.2-37.9-47.3 147 12 33.7 8.4 91.9 20.7 143 4.5 18.8 27 31.3 30.6 48.8 10.3 49.9 15.8 90.7 10.6 99.7-50.6 88.2-113 121.6-140.3 162-4.9 7.3-17.2 33-18.6 39.3-1.4 6.4-18.1 52.8-17.9 59.5s11.3 32.5 11.5 39.2-14.5 43.6-18.7 47.7-37.3 48.6-33.9 56-1.5 127 5.7 140.3c7.1 13.2 10.3 52.3 7.9 63.4s-2.9 62.2-6.3 69.8c-3.3 7.6-47.1 63.2-48.1 68s13.2 16.2 19.9 16 78.3-14.7 100.9-26.5 113.4-92.2 117.7-96.2c4.2-4.1 44.6-28.7 44.7-37s.4-29.9 2.6-35 130.7-12.8 165.3-28.6 132.8-63.5 141.2-71.7 66.9-36.6 105.5-194 93.5-257.9 96.9-266c9-21.4 10.7-35.7 9.8-51.9-.9-16.3 9.2-49.1 12.7-58.6s64-160 71.3-180.3 9.1-41.9 10.4-54.7c1.3-12.9 27.4-50.1 55.1-60.6s65.7-19.8 72.6-20.3c6.9-.4 23.7-10.4 27.5-14.5s136.8-28.7 149-31c8.6-1.6 19-11.5 20.1-16.1 1-4.7 18.9-136.2 22.6-149"
+					  stroke-dasharray="61.0305 2.4412" stroke-width=".75" />
+					<path clip-path="url(#a)" d="m70.4 2126.7c94.5-30.6 97.2-63.4 101.2-71.5 4-8 73.1-49.8 77.1-57.8s22.1-35.2 26.5-39.9c4.3-4.6 43.1-14 46.5-14.4s26.9-.8 35.6-.1c8.7.8 33.3-5 36.6-9.8s57.3-33.2 60.4-32.5 27.8-5.1 31.2-5.5 24.6 9.8 31.4 9c6.8-.7 28.3-7.2 37.4-8.6 9.2-1.3 63.5-.7 73-3.1 9.4-2.4 32.8 2.7 44.9 3.1s46.4 16.8 53.5 15 36.6-35.4 39.7-39.2c3-3.8-.1-35.6-7.2-43.8s-10-15.5-9.7-22.1 11.1-43.4 15.6-51.1c32.2-55.9 49.9-142.7 51-148 1.2-5.3 2.3-26.2-3.2-26.3s-10.3 16.7-15 17.9-8.9-.2-19-9.7c-13.7-12.9-7.4-21.9-23.9-29.8-16.4-7.9-7.9-3.4-27-11s-20.9.6-24.3-11.3c-3.4-12-9.8-12.6-7.5-18.1 3.8-9 46.3-113.4 47.8-128.1s35.8-90.7 30.8-98.4c-5-7.8-10.7-27.4-15.9-41.8s9.8-52.9 13.5-62.1 20-30.7 18.6-49.3c0 0 17.4-110.5 14.5-130.5s-11.2-27.7-3.8-38.4 6.8-26.6 10.8-40-4.8-25.9 1.6-43.5c8-22.2 49.2-171.1 68.7-181.6 8.1-4.3 32.5-25 37-33.3 43.4-80.2 83.6-174.2 92-184.6 6.7-8.3 42.8-58.2 51.9-82.4 9.5-25.4 29.1-157.9 16.4-185.1-9.6-20.4-46.2-61.3-59.7-79.4-7.4-9.8 15.4-41.9 7.3-58.2-25-50.7-10.5-21-47.3-26.6-18.3-2.8-56.9-89.3-87.8-90-24.9-.6-38.3-4.1-45.6-13.3-7.1-8.8 21-83.1 39.6-74.5 23.5 11 56.3-27.3 59.8-46.8 5.9-33.3 26-198.2 26-198.2s1.9-32 6.6-44.9 17.2-43.8 27.7-59.8-.6-15.9 4.1-34.3 9.7-49.8 14.7-60.2 10.7-24.6 10.7-24.6c9.7-8.2 76.1-63.9 104.2-70.3s134.9-33.3 149-44.4 43.9-25.5 52.7-23.6 48.8 17.3 55.4 17.9c6.5.6 19-6.7 29-10.4s25.7-141.2 29.8-179.6c4.1-38.3-15.9-115.2-18.3-119.1-2.5-3.9-4.1-23.4-1.8-33.8 2.2-10.4 13.9-156.3 11.8-165.9s-26.1-49-26.4-55 67.9-220.5 165.7-263.5"
+					  stroke-dasharray="61.0305 2.4412" stroke-width=".75" />
+					<path clip-path="url(#a)" d="m99.5-31.4s-64 153.2-78.7 183.7c-8.6 17.8-65.5 58.2-79.7 57.1-9.6-.7-22 .5-30.6 1.1-5.8.4-5.9 17.4-5.1 23.5 1.4 9.3.4 13.9 24.2 21.3 29.5 9.1 64.7 29.2 81.5 36.9 33.9 15.4 41 63.2 51.3 118.8 3.3 17.9-10.6 27.5-6.1 39 8.2 21 54.4 57.7 56.2 80.2 15.7 195.5-161.8 271-181.4 284.8-12.6 8.9.7 42.7-78.7 114.7-3.5 3.1-31.9 7.3-34.7 11-8 10.3-16.2 36.2-32.3 54.8-9.7 11.2-11 24-13.9 30.7s3.8 9.6 11.8 12.8c8.1 3.2 38 6.8 41.3 11.9s-3.3 28.5-9.8 31.5-78.7-1-91.3-3.7-56.3-50.2-66.1-52.3-116.9-13.7-149.5-4.7-77.6 34.3-94.2 36.5-17.6 13.7-20.5 20.4-22.3 58.1-33.4 52.7c-17-8.3-161.3-4.8-168.4 1.4"
+					  stroke-dasharray="61.0305 2.4412" stroke-width=".75" />
+					<path clip-path="url(#a)" d="m2084.5-38.7c-20.4 11.3-117.6-3.9-125.9-4s-38.6-6.7-51.5-1.2-47.3 56.5-60.3 70.3c-13 13.9-28.2 22.2-39.1 26.5s-48.6 16.2-57 24.3-15.2 46.8-23.3 76.7c-8.2 29.9-31.6 130-34 141.1-2.4 11.2-42.2 79.3-48.9 94.5-6.6 15.2 1 33.6 3.4 45.8s-3.4 31-8.3 38.2c-4.9 7.3-36.6 7.1-50 7.5s-31.5-8.5-40.9-18.9-35-31-50.6-36c-15.6-5.1-32.6-18.8-40.5-28.8-7.8-10-18.2-39-30.1-53.3s-36.6-69.7-43.4-84.5-13.2-31.2-43-42.7c-15.3-5.9-20-21.7-14.5-35.8s1.1-46.7 4.6-64.8c3.6-18 28.5-49.4 41.3-62.5s30.6-65.2 23.6-78.4c-6.9-13.2-49.6-89.6-60.2-107.6s-25.7-30.4-24.8-42 1.6-22 6.6-32.5 13.9-21.7 17.4-29.8 21.4-31.8 21.4-31.8c14.7-14.3 36.6-64 51.1-74.2s44.7-47 54-53.9 29.9-30.2 38-31.8 30.7 2.2 43.9 12.9c13.3 10.7 53 32.6 67 34.6 14 1.9 30.3 14.4 52.5 9.2 22.3-5.2 157.6-13.6 173-18 10.5-3 71.6-22.3 91.8-17.9 15 3.3 27.6 3.5 30.8 6.7 10.1 10 19 50.8 30.4 60s70.5 28.7 93.9 33.7c23.4 5.1 53.6 19.4 75.7 25.3s63.4 36 58.6 52.8-12.1 25.2-10.3 42.3 4.9 90 3.4 102-27.6 19.6-41.1 25.5-74.6 14.9-84.7 20.5z"
+					  stroke-dasharray="4 2" />
+					<path clip-path="url(#a)" d="m1596.6-434.9s-87.3-17.6-92-16.7c-29.1 5.9-100.3 57.2-117.1 58-16.9.8-26.8 20.9-41.7 33.2s-19.7 29.1-23.1 43.8c0 0-16.5 33.3-36.8 60.2s-18.3 71.7-22.3 90.6 39.4 67.6 45.3 83.2c2.8 7.3-11.7 16.5-18.2 8s-19.4-18.7-27.7-37.5-56.2-33.9-64.9-50.7-9.3-21.7-9.1-47 22-33.1 22-49.7-11.3-53.2-8.4-66.4c2.1-9.6 23-39.5 29.6-49.2s31.4-32.1 36.5-39.9c5-7.8 5.2-54.5 20.4-57.9s55.6 5.4 76.4 6.6c20.9 1.2 70.7 2 70.7 2"
+					  stroke-dasharray="61.0305 2.4412" stroke-width=".75" />
+					<path clip-path="url(#a)" d="m-7 737.9c4.9-17.9 44.3-50.4 46.1-70.4 1.8-20.1 11.1-96.4 14.1-113.8s2.8-43.5-4.7-68.7-41.7-67.2-38.3-78.9-12-53.5-21.4-56.2c-16.7-4.7-31.7-10.7-42.9-15.4s-53.7-15.8-53.7-15.8" stroke-dasharray="61.0305 2.4412"
+					  stroke-width=".75" />
+					<path clip-path="url(#a)" d="m1483.6-602.1c-2.4-.5-84.3-19.1-101.3-21.2-17.1-2-61.3 13.4-70.1 15.6-8.8 2.3-31.1 24.1-42 24.3-10.9.1-43.7 1.4-56.9 1-13.3-.4-36.3 2.1-44 3-7.7.8-20.5 2.2-27.5 7.4s-40.6 29.6-44.4 35.4c-3.8 5.9-9.3 31.3-11.7 38.3s-1 31.5-2.8 37.5c-3.9 13.3-33.2 22.3-40.1 26.7-6.9 4.5-7.3 38.4-12.7 56.2-5.4 17.9-7.2 17.5-9.5 30-2.3 12.6-7.4 113.5-10 128s-20.5 89.8-22.8 96.8-26 24.2-26 24.2-4.4 9.7-3.6 17 37.9 15.1 53.3 20.7 51.3 17.6 56.3 29.3 41.6 89.5 44.6 94c3 4.6 5.9 24.6 10.5 32.7s35.2 33.5 40.8 44.6 27 48 31.7 89.4-17 115.8-22.3 128.2c-5.4 12.3-22.8 53.7-26.3 60.9s-32.3 40.6-37.7 47.4-25.3 31.8-32.3 40.6-28.8 50.1-37.4 72-30.4 52.9-36 78.6c-1.7 8.1 3.4 1.9 10.1 1.2 9.9-1.1 14.4 5.1 12.7 9.9s-10.3 17.8-13.9 22.2c-3.5 4.4-17.8 13.6-26.9 19.4-9 5.8-28.6 9.3-32 16.4s-17 42.3-16 49.6 3.4 11.1 1.3 17.8c-5 15.9-6.8 37.4-12 50.3-15.8 39.2 19.8 91.9 13.9 114.5-2.2 8.3-2.5 14.9.6 21.1s-16.3 44.3-19.1 47-31.5 22.1-32.4 26.3-3.6 21.5.8 26.9 14.2 6.4 17.5 11.6-15.8 77.8-18.7 86c-2.9 8.3-64.5 46.1-61.2 66.8s5.7 55.7 6.2 63.6 15.7 18.6 16.6 25.9c.4 3.4-4.4 25.1 10.2 37.5 5.5 4.7 70.5-4.7 76.8.3 8.8 7.1-5.9 35.6-6.4 37.5-3.5 12.2-9 49.4-11.4 60.5s-37.5 17.2-42.3 21.9c-11.8 11.6-84.2 21.2-92.7 24.5-10.7 4.2-18.5-3.7-18.5-3.7 4-8 15-33.4 25.4-40.1 10.3-6.7 12.8-79.5 11.6-94.3-1.3-14.7 11.5-53.1 8.7-60.4-2.9-7.3-19.8-26.5-21.6-33.6s-13.5-35.2-16.7-45.9 15.1-39 19.1-47 45.6-51.3 47.4-54.2c1.8-3-9.9-31.1-8.1-39.6s-8.1-39.6-6.4-51.4c1.2-7.9 12-19.2 18.2-29.8s7.8-29.2 7.4-42.7-7.9-15.1-15.5-22.2 9.2-32.5 9.6-39.9 8.4-28.7 8.4-28.7c15.7-51.7 20.8-108.8 40.4-152.1 1.9-4.2 27.9-16 30.4-19.9 56.9-90.8 124.8-203.4 133.9-216 60.3-83 152.2-139 84.1-323.1-7.8-21.2-49-44.3-62.5-62.4-7.4-9.8 3.4-22.9-4.7-39.2-25-50.7-44.8-94.8-81.6-100.4-18.3-2.8-38.1-18.9-69-19.7-24.9-.6-25.2-5.4-29.1-14-2.5-5.6-6.9-22-1.5-23.9 8.1-3 19.7-7.5 29.1-9.4 14-2.8 38.3-50.7 41.7-70.2 5.9-33.3 26-198.2 26-198.2 5.1-6.8 7.1-5.2 14.9-28.8 7.8-23.7 18.8-40.3 26.8-46.2 8-5.8 19.1-15.7 19.3-20.1s1.9-10.7 2.1-19.3-3-27.2-2.3-30.5c2.7-11.7 4.5-19.7 9-25.4s39.4-62.4 43.3-64.8c3.9-2.5 32.7-12.1 38.8-13.3s12.3 1 18.8 1.6 7.6 15 12.7 14.4 59.4-12.1 70.5-21.4c11.2-9.2 68.3-56.9 76.6-60.9 8.4-4 20.6-6.4 33-6.2 12.5.2 43.7-5.5 51.4-6.3s54.4-4.9 54.4-4.9"
+					  stroke-dasharray="61.0305 2.4412" stroke-width=".75" />
+					<path clip-path="url(#a)" d="m501.4-140.8c.2 6 26.5 58 17.6 77s4.6.8-13.9 23.5-21.2 70.4-18.8 81.7 7.2 32.6 7.4 38.6 16.7 86.5 6 103.5-19.7 44.6-27.1 69.6 4.7 31.3 6.2 37.3 6 55.8-.7 64.3c-3.2 4.1-22.6 29.3-41.7 54.1-4.2 5.4-16.8 28.6-20.8 33.8-15.4 20.1-19.5 18.7-19.5 18.7-11.3 18.3-30.7 58.1-39.3 77.6-8.6 19.4-52.9 111.5-55.1 133.9-2.2 22.3-10.5 45.9-12 50s-18.9 49.8-23.3 65.5-136.8 277.8-142.1 286.3-8.6 37.3-10.2 44.8c-1.5 7.5-1.2 42.3-2.3 45.3s13.1 28.9 11.7 35.3c-4.4 19.1-12.8 72.9-15.1 83.5s-20.4 22.3-26.4 24.3-105.5 34.9-122.6 36.8-153.6 21.1-162.6 21.4-36.1 17.7-44 18.3c-7.9.5-51.1-41.1-69.2-45.1-18.1-3.9-179.6 7.7-201.8 7.3s-138.3 6.7-144.9 6.4"
+					  stroke-dasharray="4 2" />
+					<path clip-path="url(#a)" d="m-201.7 1752.1s154.4-23.2 212.1-43.2 113.7-27.9 129.9-26c16.3 1.9 41.9 10.8 49.6 9.9s69.4-25 73.3-27.5 8.1-14.1 15.3-16.7 48.3-3.7 51.3-5.6c2.9-1.9 51.2-13.1 54.1-15s22-12.8 20.6-18c-1.4-5.3-3.1-16.5-2.2-20.5s10.8-15.2 7.7-20-11.2-29.1-12.5-34.4 23.2-49.2 26.8-54.2c3.6-5.1 11.9-24.1 13.1-29.7s5.1-19.7 4.4-24.1-4-20.1-3.6-25.8 19.1-45.9 22.6-50.2c3.4-4.3 36.4-46 37.9-49.1 2-4 6-13.8 5.8-16.5-.9-11.3-15.6-48.4-15.8-55.2-.2-6.7-.8-47.7.8-54.9s1.9-53.7 1.6-58.6c-1-15.8-2.3-46.9-7.2-43.8-4.8 3.1-17.4 8.2-21.7 13.1-4.4 4.9-50.6 17.9-59.1 26.1s-32.1 57.1-37.7 66.1c-5.1 8.1 5.5 24.6 3.2 31.6-2.4 7 1.8 57.1 8.2 54.3s14.1.6 18.9-10.1c4.8-10.6 9.3-9.7 13.8-11.2s21.6 17.2 20.9 20.4-31 33.1-31.6 38.2c-3.1 23.9 21.1 31.7 13.4 59.4 0 0-4.5 52.5-16.7 81-12.2 28.4-26.8 71.9-31.8 82.9s-9.5 31.6-9.5 31.6c-3.9 9.9-27 26.9-33 30.8s-40.3 18.4-51.5 22.5c-11.2 4-20.2 21.5-29 26.1s-41.5 18.2-53.4 19.5-31.7-3-31.6-9.5 1-16.6-4.9-19.2-105.9 10.7-149.9 28.3-106.7 26-130.9 36.3-93.4 18.6-117 19.9-91.1 2.2-98.8 1.8"
+					  stroke-dasharray="61.0305 2.4412" stroke-width=".75" />
+					<path clip-path="url(#a)" d="m54.1 2058.1c19.9-7.3 116.6-68.1 125-76.3s16.8-31.4 21.4-37.1 34.6-20.9 43.9-25.5c9.4-4.6 44.3-12.1 55.3-16.4 10.9-4.3 63.3.4 74.3-3.9s27.4-34.1 33.6-39.4 34.2 4.1 48.3.5 19.1 4.2 50.1 7.5c31 3.4 86.9-16.2 97.5-18.9s35.3-24 42-24.3c6.7-.2 23.4 5.1 34.2 4.1 13.8-1.3 3.4-82.1 11.1-125.5s17.4-104.7 18.9-112.7c2.5-13.4-9.2-15.2-23.7-8-4.5 2.3-12.3 9-18.6 18.8-3.8 5.9-5.2 18.9-7.9 26.1s-10.7 38.8-14.9 47.9-33.5 51.7-37.2 58.7-14.9 37.9-11.4 42c3.6 4.1 13.8 3 17.6 6s5.6 20.1 4.9 23.3-24.1 13.7-27.5 14c-3.4.4-41.9 8.7-44.4 4.8s-15.4-11.1-22-11.4-30.9-1.1-39.3 1.5-62.7 20.5-62.7 20.5c-17.1 1.5-33.2 9.6-42.2 15.4s-42.5 16.7-52.2 19.7c-9.7 3.1-36.3 6.4-48.8 10.1s-66.9 21.7-71.7 25.9c-4.8 4.1-19.2 23-22.4 31.4-3.1 8.4-23.7 37.6-28.2 40.5s-60.4 21.8-76.6 24.8-64.1 2.9-82.3 9.3-151.3 40.9-161.1 44c-9.7 3.1-64.6 17.1-64.6 17.1"
+					  stroke-dasharray="61.0305 2.4412" stroke-width=".75" />
+					<path clip-path="url(#a)" d="m1090.7 2593.5c-5.7-14.6-55.6-105-60.7-107.2s-32.5-9.3-40-15.4c-7.6-6.1-69.1-76.2-73.9-85s13.8-38.1 14.2-44.8c.3-6.6-55.8-96.6-76.4-114.5-20.6-17.8-42.2-25.9-52.4-30.3s-62.2-15.7-74.7-19.6c-12.5-3.8-96.9-19.9-104.6-20.5s-84.8-4-94.7.6c-9.9 4.5-67.7 4.2-73 3.1-5.3-1.2-52.9-30.4-64.6-32.9s-29-15.2-36.2-17.9-95.1-5.1-108.1-6.8-27.9.6-33.7 1.6-18.4-7.3-17.3-12.6c1.2-5.3 15.8-13.8 18.8-19.8s84-46.3 91.8-51.3 105.2 10 110.6 7.9 39.1-26.5 39.1-26.5 44.9-6.9 53.2-6.8 54.4-43.2 63.1-44.7 121.6 31.4 133.1 32.3c39.7 2.9 95.7-64.3 102-78 6.3-13.6 2.8-74.5.5-86.7-2.4-12.2 17.7-27.9 23.3-38.3 5.6-10.5 11-66 9.5-74.7s28-105.7 32.9-113 30.5-25.1 35.7-33.9 43.8-40.5 53.7-55.1c4.9-7.3 111.1-181.1 117.9-189.6 6.9-8.5 50.1-30.8 61-35.1s53-13.5 61.4-21.7 28.1-37.3 44.7-52c3.8-3.4 127.4-87.4 141.4-97.8 13.9-10.3 67.2-63.8 160.6-78.6s221.2-50.4 233.7-54.4 53.4-38.5 59-48.9 7.5-26.7 9.3-43c1.9-16.3-4-65.9-2.3-73.9s3.6-24.2 8.2-29.9 20.2-.6 31.1-4.9 31.9-16.4 36.8-23.7 72.2-132.8 70.2-146.6-46-145.3-55.1-180.8c-4.2-16.5-6.9-44.4 5.8-66.9 12.7-22.6 31.1-40 42.3-51.2s44.6-52.7 50.3-61.2 2.7-16.9-.7-23.5-20.4-40.5-18.1-46.8 10.9-14.2 17.9-19.5 18.5.1 32.3-9.6 40.1-32.2 45.3-37.9c5.1-5.7 28.8-11.3 33.4-10.3s64.7-28.8 80.2-42 68.8-52.3 75.7-61.5 74.9-102.6 78.8-111.5-5.4-55.7-4.5-69.2c1-13.4 1.6-83.4 5.7-98.1s150.8-271.2 150.8-271.2"
+					  stroke-dasharray="61.0305 2.4412" stroke-width=".75" />
+					<path clip-path="url(#a)" d="m826.5-592c5.5 15.7 6.9 60.4 7.4 68.3s9.9 21.1 8.9 30.8c-1 9.8 7.9 40.6 5.8 50.2s4.5 25.4 9.7 22.1 20.7-38.9 24.9-48 16.6-60.9 19.8-75.8 16.1-68.8 21.5-78.7c5.5-9.9 25.2-39 30.6-43.4s41.1-127.9 49-138.4c7.8-10.5 69.2-57.3 78-62 8.8-4.8 36.3-3.2 47.4-3.1 11.1.2 73.6 24.9 88.7 27 15.1 2.2 42.4-10.8 50.8-19s18.3-63.9 18.6-70.5-7-29.3-10.1-35.6c-3.1-6.2 2.3-20.6 4.5-25.7s10.4-12.2 12-19.6-10.6-43.5-18.1-55.1-49.8-93.1-55.3-216.7 19.9-301.6 19.9-301.6"
+					  stroke-dasharray="61.0305 2.4412" stroke-width=".75" />
+					<path clip-path="url(#a)" d="m1176-1358.3c2.8 16.4 13 78.8 14.9 91.8 1.9 13.1 14.5 79.1 12.2 89.7s6.3 94.7 9.1 111.2c2.8 16.4 21.4 83.8 16.7 90.7s-34.3 41.6-45.1 47.2c-10.7 5.6-70.1 2.2-75.3 4.2s-49.3 8.3-61.5 13.5c-12.2 5.3-106.7 32.2-113.4 33.9"
+					  stroke-dasharray="61.0305 2.4412" stroke-width=".75" />
+					<path clip-path="url(#a)" d="m1158.8 2656.7c-5-7.8-47.7-133.8-54.6-140.3s-35.1-46-44.5-56.4-35.8-81.2-80.2-160.9-89.8-139.6-98.9-151.6-57.4-27.5-72-37.3c-27.6-18.6-58.3-8.2-62.2-5.7s-28.3 15-40 12.5-81.7-23.3-92.1-26.7-38.4-22.8-36.8-30.2-51.3-25-46.5-31.8c4.8-6.7 95-2.2 121.7-1.9 26.6.2 55.6-.2 77.7-4.3 22-4.1 66.4-18.9 89.4-32.9 23-13.9 86.9-87.9 86.9-87.9 24.1-39.3 16.9-41.9 19.5-69.2 2.6-27.2-16-80.1-12.6-100.6 7.1-42.9 14.7-88 23.1-106.2s24.6-72.5 33.8-83.9 127.2-165.9 146.3-181.8 47.6-65.3 74.9-68.3 36.2-33.3 57.1-37.6c21-4.3 124.4-86.4 155-104.3 30.6-17.8 228.2-31.6 258.3-47.3s58.5-34 84.9-52.8c26.3-18.8 50.5-46.5 65.7-56.9 16.2-11.1 47.3-46.7 59.2-54.3s28.3-36.2 34-55.5c5.6-19.2 13.3-41 21-49.5 7.7-8.6 23.6-54.8 34.6-78.7s66.2-143.4 69.7-152.9 13-39.6 10.7-56.1c-2.2-16.6-23.3-67.9-23.6-79.7-.4-11.8 44.3-102.9 50.7-119.1 6.4-16.1 7.4-65.6 13.4-73.1 10.7-13.3 23-45.8 33.2-62.9 10.8-18.1 28.6-49.2 36.4-55.4 15.3-12.3 114.6-72.5 114.6-72.5"
+					  stroke-dasharray="4 2" />
+					<path clip-path="url(#a)" d="m186.5 2149.8c32.8 2.7 82.8-2 117.2 3.2 34.5 5.3 53.6 9.4 76 18.7s71.4 40 99 46 97.2 3.3 135.4 11.6 86.9 30 104.7 40.5c17.7 10.5 93.2 113.7 93.2 113.7" stroke-dasharray="61.0305 2.4412" stroke-width=".75" />
+					<path clip-path="url(#a)" d="m1911.6 35s1 67-13.6 103.8-102.4 287-111.2 307.3c-8.9 20.3-69.2 216.3-84.9 237.4s-36.7 107.7-61.9 131.2-40.4 42.4-58.3 43-27.4-17.1-38.1-19.4c-10.6-2.3-86.9-30-93.5-20.3s15 23.3 14.3 36.5c-.6 13.2-22.7 32.9-37.8 40.7-15.1 7.9-89.8 13.9-106.5 19.1s-70.9 60.2-80.1 71.6c-9.1 11.4-17.4 49.6-29.2 62.6-11.7 13-41.7 17.6-47.6 14.1s-17.8-30.6-16.7-45.9-19.4-64.3-24.7-81 13.1-121.7 15.1-141.3 12.7-48.4 19.3-58.1 58.2-114.2 83.3-137.6 55.3-70.3 67-83.3 43.8-99.5 48.9-122.8-6-70.7-11.3-91.4c-6-23.6 16.9-16.4 25.2-3.4 8.3 12.9 10.8 42.4 20.5 48.9 9.7 6.6 17.7 6.6 21.7 7.5s4.1 15.9 6.4 16.4 41.5 69.9 44.4 79.7-9.9 26.2-7.7 31.7c2.1 5.5 10.2 29.7 14.9 34.9s14.9 15.8 34.3 22.5 50.4 17.6 74.5 17.9c24.1.2 65-15.1 69.4-20s3.6-24.2 10.3-32c6.7-7.7 42-55.1 49.3-69.4s92.6-157.6 103.2-191.1 19.7-52.4 26.9-62.6c7.2-10.1 12.5-11.5 17.2-17.9 4.7-6.5 12.3-37.4 13.7-43.7 1.4-6.4-9.3-18.7-7.9-25.1s.8-49.9 9.2-61.4 22-16.9 27.9-17.3c6.5-.4 14.5 12.7 14.1 18.2z"
+					  stroke-dasharray="61.0305 2.4412" stroke-width=".75" />
+					<path clip-path="url(#a)" d="m1379.5 436.7c-7.8 7.6-14.5 51.4-18.9 61.5-4.4 10.2-35.4 50.2-41.5 57.7-6.1 7.6-17.7 25.1-21.1 41-3.5 15.9-31 96.7-34.8 109.2s-18.7 34.9-19.8 40.2c-1.2 5.3-5.9 32.1-.2 36.7s22.4 14.9 21.3 24.7c-1 9.8-12 29.7-11.5 37.5.5 7.9 11.7 12.6 16.8 14.8s21.2-5.4 35.7-5.6 55.1-43.7 72-50 74.3-19.5 90.9-19.2 89.1 24.9 100.9 21.9 56.6-45.5 63.8-52.9 44.5-102.7 49.5-120.5 25.2-70.2 14.3-65.9-25.7 5.5-32.7 7.3c-7.1 1.8-11.4 16.4-15.5 20s-29.3 17-43.4 20.6-97.3-7.8-110-10.6-29.8-26.5-33.3-36.2-12.9-42.9-14.5-51-13.2-16.2-19.2-14.2-20.5 2.2-23.5-9.6-6.9-44.9-7.7-51.7-14.8-8.5-17.6-5.7z"
+					  stroke-dasharray="4 2" />
+					<g stroke-dasharray="61.0305 2.4412" stroke-width=".75">
+						<path clip-path="url(#a)" d="m1410.9 598.6c-2.5 4.4-11.8 69.9-12.3 78.9s1.2 26.2 3.4 31 20.8 5.1 29 .1 52.8-21 63.1-21.9 24.2.2 35.2-.7 23.4-5.3 24.6-13.6-61.9-24.4-73-26.9-28.6-17.4-30.8-21.5c-2.1-4.1-12.2-24.6-13.6-27.4-1.5-2.6-23.6-1.5-25.6 2z" />
+						<path clip-path="url(#a)" d="m1667.9 1136.6c-14.3 9.2-47.1 27.6-61 30.1s-130.5 11.7-143.3 14.5-33.5 16.1-42 24.3c-8.4 8.2-79.7 90.6-87.3 94.5-7.5 3.9-30.3 1.2-40.5 2.3-10.3 1.1-77 52.2-86.3 59.1s-56.2 74.5-63.2 86.4c-7 11.8-79.8 91.1-82.2 101.7s5.4 34-.3 55 13 60.7 9.7 75.5c-3.2 14.9-7.3 54-8.3 63.8s29.7 4.7 40.6 7.7c18.9 5.2 45.6-.1 72.9-23.1s66.9-72.2 85.4-86 19.2-27 14.4-45.8-29.1-70.8-22.8-89.5 30.5-89 33.9-115 33.3-56.2 38.7-60.6 42.2-25.3 51.6-27.7 25.7 4.5 37.7.4 95.9-21.4 106.3-23.6 19.5-18 25.8-26.7c6.3-8.6 29.2-37 44.6-41.5 15.4-4.4 66.1-27.9 76.2-33.5s32.6-27.4 39.1-31.5c6.5-4.2 4.5-15.7 3.3-20.4-.9-4.6-41.7 8.8-43 9.6z" />
+						<path clip-path="url(#a)" d="m987 1688.4c-4.8 22.3-5.5 78.9-8.2 91.6-2.8 12.7-24.6 98.1-24.6 113.1.1 15-1.9 39.6-4.4 50.8-2.4 11.2 8.7 13.6 19.7 9.3s43.1-52.4 58.9-63.9c15.9-11.6 14.9-30.1 5.3-47.2s10.8-34.4 4-49.2-18.2-62.3-14.7-78.3-33.3-39-36-26.2z" />
+						<path clip-path="url(#a)" d="m1404.5-188c-2.7 8.6-1.1 20.6 2.2 24.7s27.2 35.9 33.4 42.3c6.1 6.3 20.6 42.4 20 49-.6 6.5 4.5 18.9 4.6 22.3s-33.9 125.3-40.5 136.4-6.3 21.2-.9 23.2 14.6 5.7 16.7 7.8c.9.9 50.1 26.1 84.9 13.5 12.5-4.5 23.5 5.6 27.5 16.3 10.2 27.5 19.6 66 28.1 73.4 3.1 2.7 17.6 15.9 22.4 17.8 5.8 2.4 15.2 2 21.1-.4 7.1-2.8 52.6-131 56-131.2 3.4-.1 16.7-15.6 22.3-21.9 5.5-6.3 15.7-87.5 32.6-103.9s53.2-45.2 61.9-50.8 40.9-53.7 50.4-63.3c9.6-9.6-1.8-26.3 1.2-36.4 3-10.2 7.5-19.2 10.9-23.5s12.1-24.9 14.7-29.3.3-16.6-2.7-18.1-14.1-8.1-22.2-13.2-53-20.6-85.5-51.9c-26.2-25.3-62.5-23.6-70-23.5s-10.2 8.6-13.7 9.5-10.1.3-13.3-.4-3.7-5.8-9.8-8.8-31.2-6-57.7-10.9-46.8-3.5-52.2 2-3.3 7.6-2 12.9 14.8 12.4 16.5 16.1 7.2 35.8 7 40.7c-.2 5-38.5 15.8-45 15.2s-37.6 4.3-39-1-8.2-8.4-10-11.4c-1.8-2.7-67.2 68.2-69.9 76.8z" />
+						<path clip-path="url(#a)" d="m1457.6 225.6c-14.2-5.6-7 47.4-5.4 55.6 1.6 8.1 53.4 81.7 62.8 84.8 9.3 3.1 27-6.4 31.8-13.1s1.6-58.6.3-67.8-27.7-26-27.6-31.6c.1-5.5-1.3-14.7-.1-20s-1.5-13.7-7.9-15.1-22.1-5.9-27.6-6c-5.6-.1-20.2 15.7-26.3 13.2z" />
+						<path clip-path="url(#a)" d="m254.9 36.6c0 10-36.1 152.9-40.7 160.7s-17.6 34.2-20.3 39.4c-2.6 5.3-12.4 70.4-8.8 74.1s20.9 38.2 27 43.9 10.2 20.2 13.9 21.1 16.4.6 20.5-.4c4.1-1.1 20.2-25.8 24.1-25.9s14.8-.7 23.5-.7 18-1.9 23.3-8.6c5.3-6.6 13-100.4 14.1-109.9s-11.5-19-12.8-26.2 1.7-48.3 6.5-65.8 7.8-31.4 11.8-36.4 5.5-30 5.1-36.9-44.1-18.1-49.5-20.2-5.6-10-3.4-20.2 34.1-51.5 35.3-57.1 12.1-55.8 7.5-56.8c-4.7-1-22.5 27.3-27.7 29-5.3 1.8-11.2 11.2-11.7 17.9s-10 41.7-12 46.1c-1.9 4.4-4.5 2.9-8.1 6s-17.6 22.5-17.6 26.9z" />
+						<path clip-path="url(#a)" d="m1398 2720c-4.3-14.7-12.4-64.2-15.5-71.6s-16.6-7.4-23.2-23.2c-6.6-15.9-21.3-29-20.1-42.9s13.2-115.3 13.9-132.3c.8-17 8.5-53 9.3-59.2 2.5-19.6 14-36.9 13.9-51.2s-5-104.9-6.4-113.5-11.3-83-17.6-94.1c-6.2-11.1-7.6-67-2.6-70.1s45.9-49.3 50.9-59c5-9.6.5-37.5 11.6-43.7s93.4-41.7 103.1-43.3 37.2 4.9 43.8 5c6.6 0 163.6-16.8 174.5-17.5s155.2-34.1 235.1-78" />
+					</g>
+					<path clip-path="url(#a)" d="m1455.8 2700.2c-10.8-15-26.7-41.4-29.8-64.7-1-7.8 20.3-25.1 21-41 1.1-25.7 21.7-67.2 37.7-121 10.3-34.6-9.2-89.5 5.7-126.3 24.1-59.6 13.9-86.9 13.9-86.9 4.3-48.4 10.7-71.6 9-81.9-1.8-10.3-4.9-77.2-2.8-82.2 3.4-8.1 8.1-23.4 16.6-24.8s28.2 4.1 38 2.5 58-16.7 71.4-23.2 27.3-18.9 42.1-25.7 28.2-4.6 30.7 2.2c2.6 6.8 22.1-6.5 28.9-9.1s109.6-46.8 124.6-60.9c15.1-14 102.8-70.3 114.8-76.6s24.2-19.9 39.5-23.8 150.2-54.9 150.2-54.9"
+					  stroke-dasharray="4 2" />
+					<path clip-path="url(#a)" d="m1429.4 2703.8c-9-15.6-22.6-42.8-27.1-65.6-1.5-7.7 11.5-22.3 10.3-37.6-1.8-24.8 8.2-62.8 13.8-113.3 3.6-32.4-13.7-86.5-8.7-121.7 16.4-116 11.8-187.4 11.8-187.4-1.9-46.4.2-68.2-2.1-78.4s5.9-51.8 9.9-54.4c9.2-5.8 14.6-16.9 14.6-25.5 0-8.7 1.3-27.7 6.7-30s17.9-5.8 26.3-7.2 86.5 24.9 100.9 24.1c14.3-.9 212.3-82.4 286.5-106.1s93.1-41.2 96.9-44.8c3.8-3.5 6.4-14.1 15.6-19.9s49.6-24 61.6-30.3 73.5-19.2 73.5-19.2"
+					  stroke-dasharray="61.0305 2.4412" stroke-width=".75" />
+					<path clip-path="url(#a)" d="m1185.1 2614.6c-1.2-7.5-4.6-28.2-5.8-35.7s16.5-159 15-179.9c-1.5-21 1.7-48.5 2.1-58.2s-10-13.8-10.5-29.1-12-61.7-13.5-71.1 13.8-21.6 12.9-27.2-11.9-96.5-15.3-105.5c-3.4-9.1-25.1-71.1-29.1-84-4-12.8 14-79.5 20.6-86.3 6.6-6.9 120.2-91 137.8-101.6s151.7-63.3 160.8-66.8c9.1-3.4 23.4 13.5 36.9 13.3 13.5-.3 22.2 6 35.4 3.9s50.7-8.3 66.1-8.9 56.7-18.9 56.7-18.9 15.5-46.9 21.5-57.5 193.5-78.4 200.9-81c24.5-8.8 40.9-20.7 59.7-35.6s43.7-42.3 58.5-54.6 54.7-45.1 73.1-58.4 57.9-59.9 75.8-63c17.9-3 31.3-8.8 45.5-10.8 14.3-2.1 50.5-9.8 52.9 2.9 2.4 12.6-5.7 26.4-12.6 42.2s-2.1 25.4 5.8 28.9c7.9 3.4 71.5-58.7 86.9-74.4 15.5-15.6 36.8-66.2 58.2-77.1s33.2-25.6 56-27.5c22.9-1.9 53.9-17.6 68.3-28.3s28.4-35.3 34.2-46.1 42-58.2 57.1-72.2 82.8-87.3 88.1-103.5 10.8-73.6 13.7-86.8"
+					  stroke-dasharray="61.0305 2.4412" stroke-width=".75" />
+					<path clip-path="url(#a)" d="m989.6 2036.3c-5.7 2.2-13.9.4-18.9-.6-4.9-1.1-29.1-21-35.2-20.6s-12.9 11.9-13.9 20.3 5.2 23.6 43.8 52.7 34.3 108.4 36.9 120.2 38.9 106.9 44.9 119.4c5.9 12.5 24.1 36.3 30.5 38.6s12.7 1 13.8-3.9-6.9-36-8.1-50.1c-1.3-14.1 18.5-29.6 22.4-35.7s16.7-17.1 15.8-30.7c-4.5-67.4-22.8-88.8-24.3-98.5-1.6-9.7-35-123.1-35.7-137.9s-6.8-41.8-7.6-56.6c-.8-14.7 25.4-47.1 34.5-51.9s110.3-42.8 120.8-49.5 124.7-106.3 144.3-117.7 162.3-87.1 398.6-179.1c31.9-12.4 34.9-34.2 51.3-46.2s47.2-34.6 70.2-45.2c23-10.5 53.7-24.6 82.6-30.4s86.9-34.6 116.5-43.8c29.6-9.1 113.1-35.9 127.9-48.2s130-97.8 160-108.6 64.1-32.7 84.9-33.4c20.9-.6 13.9-.4 29.8-2.2 15.9-1.7 45.2-9.2 64.7-27.4s65.4-94.6 68.3-107.8-5.2-23.6-3.3-40.4 5.6-57.5 3.7-64.8-30.6-74-28.6-90.8c1.9-16.8-4.4-35.5 2.7-44.3s15.8-17.3 20.6-23.2c4.7-5.9 9.5-11.8 12-23.3s.4-25.8.9-36.1"
+					  stroke-dasharray="61.0305 2.4412" stroke-width=".75" />
+					<path clip-path="url(#a)" d="m1514.3 2761c-86.4-176.3 51.1-311.6 64.2-331.6 8.5-13-16.4-39.5 31.1-135.6 2.1-4.2 27-18.5 28.2-22.9 3.7-12.6 1.8-39.6 9.9-62.8 4.9-13.9 1.4-26.4 1.7-33.7s-7-7.5-15.7-7.6c-8.7 0-37.8 7.6-42.7 4.1s-7.4-27.7-2.5-32.9c4.9-5.1 73.6-27.9 86.3-30s70.8 26.1 80.7 24.5 113.7-30.1 140.8-50.5c27.1-20.3 59.6-60.4 74.2-68.5 14.6-8.2 11.3-19.2 11.6-26.5s-.5-62.2 11.7-61.2c18.9 1.5 151.8-54.7 156.1-63.1"
+					  stroke-dasharray="61.0305 2.4412" stroke-width=".75" />
+					<path clip-path="url(#a)" d="m1287.1 2703.2c-6.2-21.5-7-46.5-7.2-50.9-.1-4.3-.7-53.3-2.4-69.5-1.6-16.3 25.3-308.7 27.2-318.5 1.8-9.9-5.6-37.9-7-45.4-1.3-7.6-14.4-39.7-14.5-43s-22.8-22.1-23.8-28.6c-2.9-19.4-14.9-72.5-16.6-83.2s10.8-28.2 15.7-32.3c4.8-4.1 85.3-71.2 100.5-79.2s135.2-76 143.4-79.6 27.1-29.8 34.2-33.1c7.2-3.4 62.7 19.5 80.9 16.5s164.3-73.1 185-80.9c20.8-7.8 126.2-56.9 132.4-59.1"
+					  stroke-dasharray="4 2" />
+					<path clip-path="url(#a)" d="m544.2 227.8c-7.6 17.5-23.2 71-19.6 81.5s28 23.6 26.6 38.9 10.8 21.8 19.5 17.9 22.9-6.7 31.7-20.4 14.7-76.7-.8-85.9-38.5-20.1-36.5-29.4-17-11.5-20.9-2.6z" stroke-dasharray="61.0305 2.4412" stroke-width=".75" />
+					<path clip-path="url(#a)" d="m1896.9 1051.6c-20 24.9-112.7 142.1-139.3 156.8s-137.5 81.2-157.2 91.5c-19.8 10.3-120.6 44-137 52.1s-48.4 47.9-62.8 74-22.8 91.5-38.8 111.4-19.7 36.7-9.7 44.7 43.8 27.1 61.2 27.9 285-107.6 299.8-108.8c14.9-1.2 41.4-62.6 55.7-68.3 14.4-5.6 67.3-20.5 82.1-21.6s98.8-10.7 117-14 62.2-46.4 73.3-57.1 52.1-11.1 61.5-20.7 124.3-92.4 150.6-105.6c17.1-8.7 143.1-100.4 153.7-95.2s23.9 11 31.7 15.6 17.7-.5 25.1-7.7 91.2-110.3 100.9-121.3 2.7-25.7 1.4-33.3-59.5-129.8-57.4-152.8-7.8-51.4 1.3-59.6c9.1-8.3 39.3-19.2 46.7-26.4s-5.3-36.2-3.2-46-26-55.3-46.2-69.9-138.1-50.5-159.9-50.8c-21.8-.4-205.9 19.6-220.9 28s-33 30.8-36 44.8 1.4 33.9-.1 40.9.1 93.6-2 103.3c-2.1 9.8-11.5 26.2-15.7 38.5-4.1 12.3-23.2 59.7-34.8 66s-61.9 36.2-73.5 42.5-14.6 20.2-15.9 33.1-41.6 75.6-51.6 88z"
+					  stroke-dasharray="61.0305 2.4412" stroke-width=".75" />
+					<path clip-path="url(#a)" d="m1561.9 1376.3c-27 4.9-85.3 42.9-89.2 61s18.2 50.7 13.8 64.4-2.2 30.2 4.5 33.1 50.7-18.2 70.2-27.1 90.3-92.9 111.2-101.5 78.4-51.6 87.8-61.3-12.3-37.7-20.2-35.1c-7.9 2.7-159.8 63.2-178.1 66.5z" stroke-dasharray="4 2" />
+					<path clip-path="url(#a)" d="m2163.5 685.7c-2.5 17.2-22.1 151.1-23.1 164.5s-21.8 55.7-30.9 61.5-55.6 40.5-65 48.2c-9.5 7.7-26.3 76.1-33.6 92.1-5.1 11.1-91 77.7-135 123.6-18.9 19.8 7.7 41.1 6.6 43.8-3.9 8.9 60.8-10.7 71.5-6.4 10.8 4.3 57.3-1.2 74.8-1.3 17.6-.1 200.8-108.4 221.7-105.8s76.5-20.4 94.2-30.2 24.4-31.7 26.8-42.9-12.2-123.4-12.7-139.1 13.5-26.3 16.3-39.3-13.1-110-13.6-125.7-21.4-35.8-52.3-46.4-65.7-47.4-83.7-45.4c-17.8 1.9-60.1 35.5-62 48.8z"
+					  stroke-dasharray="4 2" />
+					<path clip-path="url(#a)" d="m1490.5-183.1c-3.1 14.1-1.8 72.1.8 83.9s-2.4 42.7-4.3 59.5-13.9 47.9-12.5 73.3c1.4 25.3-.3 41.4 7.9 43.2s28.3 1 31.3-1c3-1.9 4.9-6.7 15.4-11.3s31.9-15.5 37.3-12.6 16 13.8 16.7 22.6 11.4 58.6 16.6 58.8c5.1.2 13.8 3.9 21.1 2s24.2-24.1 34.7-28.7 9.5-35.9 12.7-50.8c3.2-14.8 24.6-77.5 29.8-89.4 5.2-11.8 46.8-80.5 50.9-99.4 4.1-19-.1-95-1.4-104.8s-25.3-30.5-41.3-32.3-65.8-3.1-77.9-3.1-34.5 23.6-46.6 35.6-38.1 24.5-50.9 27.8c-12.7 3.3-37.9 16-40.3 26.7z"
+					  stroke-dasharray="61.0305 2.4412" stroke-width=".75" />
+					<path clip-path="url(#a)" d="m1550.1-155.5c-4 12-27.6 99.3-30.5 116.8s-8.3 50-.2 52.6 66.4-31.3 84.1-41.3 23.3-20 37.6-22.1 21.6-3.9 29.1-6.6 20.5-30.9 24.1-39.6 13.9-72.1 13.2-80.9-6.9-23.9-16.4-27.7-26.7-4.1-36-5.2-19.8-4.3-29.1-1.1-18.3 4.7-27 13.1c-8.7 8.5-13.1 12.7-24.1 15.5s-22.3 19.3-24.8 26.5z"
+					  stroke-dasharray="61.0305 2.4412" stroke-width=".75" />
+					<path clip-path="url(#a)" d="m1363 580.8c-9.7 19.6-19.7 66.9-23.6 79s-20 56.5-13.7 63.1 15.4 12.4 16.3 20.4 13.4 15.9 26 17.3 27.1-5.8 42.9-12.7 30-12.9 49.2-17.8 28.3-17.2 46.4-17.1c18.1 0 20.9-.6 40.9 2.4 20.1 3.1 24 2.6 41.3 6.4s32.3 12.2 36.8-2.4 15.5-35.5.5-43.9-50.1-19.9-67.1-24.9-41.2-12.8-51.8-17.7-27.8-15.1-34.1-21.7-19.1-31.3-29.7-36.2-29.3-14.1-37.8-10.8-16.4-13.9-20.5-18.7-15-8.4-19.9 2.2c-4.9 10.5 2.6 23.8-2.1 33.1z"
+					  stroke-dasharray="61.0305 2.4412" stroke-width=".75" />
+				</g>
+				<path d="m801.3 1c4.2 5.8 8.6 11.6 13.3 17.6 27.3 35.1 109.5 154.6 137.2 194.8 39.2 57 31.9 90.2.7 137.1-116.1 174.8-156 333.5-223.4 589.1-47.2 178.8-129.4 485.8-164.6 627.2s-96 168.8-165.3 197.7c-17.2 7.2-51.8 19.9-95.6 35.6" opacity=".35"
+				  stroke="#f0f6fe" stroke-dasharray="9.7191 9.7191 77.7532 9.7191" stroke-width="2" id="main-path" />
+				<ellipse class="fade-in" cx="93" id="second-circle" cy="-68" rx="0" ry="0" stroke="#2dccd3" stroke-dasharray=".5005 0" stroke-linecap="round" stroke-width="4" transform="matrix(.9951 -.09853797 .09853797 .9951 -85.692 77.1121)">
+					<animate attributeName="rx" begin="0s" calcMode="linear" from="0" to="73" dur="2s" repeatCount="indefinite" />
+					<animate attributeName="ry" begin="0s" calcMode="linear" from="0" to="73" dur="2s" repeatCount="indefinite" />
+					<animate attributeName="opacity" begin="0s" calcMode="linear" from="0" to="1" dur="20s" keyTimes="0;.05;1" values="0;1;1" repeatCount="indefinite" />
+					<animate attributeName="stroke-width" begin="0s" calcMode="linear" from="6" to="1" dur="2s" repeatCount="indefinite" />
+					<animate attributeName="stroke-dasharray" begin="0s" calcMode="linear" from="0.5005 0" to="0.4994 5.9898" dur="2s" repeatCount="indefinite" />
+					<animateMotion dur="20s" repeatCount="indefinite" keyPoints="0.7;0" keyTimes="0;1" calcMode="linear">
+						<mpath xlink:href="#main-path"></mpath>
+					</animateMotion>
+				</ellipse>
+				<ellipse class="fade-in" cx="93" id="second-circle" cy="-68" rx="0" ry="0" stroke="#2dccd3" stroke-dasharray=".5005 0" stroke-linecap="round" stroke-width="4" transform="matrix(.9951 -.09853797 .09853797 .9951 -85.692 77.1121)">
+					<animate attributeName="rx" begin="1s" calcMode="linear" from="0" to="73" dur="2s" repeatCount="indefinite" />
+					<animate attributeName="ry" begin="1s" calcMode="linear" from="0" to="73" dur="2s" repeatCount="indefinite" />
+					<animate attributeName="opacity" begin="0s" calcMode="linear" from="0" to="1" dur="20s" keyTimes="0;.05;1" values="0;1;1" repeatCount="indefinite" />
+					<animate attributeName="stroke-width" begin="1s" calcMode="linear" from="6" to="1" dur="2s" repeatCount="indefinite" />
+					<animate attributeName="stroke-dasharray" begin="1s" calcMode="linear" from="0.5005 0" to="0.4994 5.9898" dur="2s" repeatCount="indefinite" />
+					<animateMotion dur="20s" repeatCount="indefinite" keyPoints="0.7;0" keyTimes="0;1" calcMode="linear">
+						<mpath xlink:href="#main-path"></mpath>
+					</animateMotion>
+				</ellipse>
+				<polygon class="fade-in" cy="" cx="" fill="#E40046" points="10,-10 5,0 10,10 -15,0">
+					<animate attributeName="opacity" begin="0s" calcMode="linear" from="0" to="1" dur="20s" keyTimes="0;.05;1" values="0;1;1" repeatCount="indefinite" />
+					<animateMotion dur="20s" repeatCount="indefinite" keyPoints="0.7;0" keyTimes="0;1" calcMode="linear" rotate="auto">
+						<mpath xlink:href="#main-path"></mpath>
+					</animateMotion>
+				</polygon>
+			</g>
+		</svg>
+	</div>
+</div>
+		</main>
+		<div id="get-started-footer" class="visible-m" data-prop="&lt;p&gt;Reduce costs &lt;/p&gt;&lt;p&gt;and improve efficiency&lt;/p&gt;">
+				<a class="button" href="/pricing">CHECK OUR PRICES</a>
+			</div>
+<footer id="site-footer">
+	<nav class="container small-text">
+		<div class="row lang-wrap space-bottom-2">
+			<div class="xs-6 col footer-lang-select">
+				<div class="mobile-lang-select visible-s">
+					<img src="//images.ctfassets.net/bx9krvy0u3sx/2rBTepKWnaaIW8GMOiEwUa/b99a6a6b235ae61c24e2f0bdd6750990/flag_usa.png?w=30&amp;h=30" height="30" width="30" style="cursor: pointer;">
+					<select name="select-region" onchange="saveTheme(this.value)" class="select-region">
+						<option value="BE">Belgique</option>
+						<option value="CA">Canada</option>
+						<option value="FR-CA">Canada - Français</option>
+						<option value="DE">Deutschland</option>
+						<option value="FR">France</option>
+						<option value="MX">México</option>
+						<option value="NL">Nederland</option>
+						<option value="AT">Österreich</option>
+						<option value="CH">Switzerland</option>
+						<option value="UK">United Kingdom</option>
+						<option value="IE">Ireland</option>
+						<option value="US" selected>United States</option>
+					</select>
+				</div>
+				<div class="lang-button-set hidden-s">
+					<div class="open-country-nav">
+					<img data-lazy="//images.ctfassets.net/bx9krvy0u3sx/2rBTepKWnaaIW8GMOiEwUa/b99a6a6b235ae61c24e2f0bdd6750990/flag_usa.png?w=30&amp;h=30" height="30" width="30" style="cursor: pointer;"> <span>United States</span>
+					</div>
+					<div class="selector-popup" id="c-select-pop">
+						<div class="country-wrap">						<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="opacity:0">
+							<defs>
+								<polygon id="path-1" points="0.0005 0.0007 10 0.0007 10 10 0.0005 10"></polygon>
+							</defs>
+							<g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+								<g id="Desktop-1440-/-Max-grid-1080px" transform="translate(-180.000000, -4290.000000)">
+									<g id="Group-3" transform="translate(180.000000, 4290.000000)">
+										<mask id="mask-2" fill="white">
+											<use xlink:href="#path-1"></use>
+										</mask>
+										<g id="Clip-2"></g>
+										<path d="M4.0215,7.7927 L1.8175,5.5897 L2.5245,4.8827 L4.0215,6.3787 L7.3675,3.0327 L8.0745,3.7397 L4.0215,7.7927 Z M5.0005,0.0007 C2.2385,0.0007 0.0005,2.2387 0.0005,5.0007 C0.0005,7.7617 2.2385,10.0007 5.0005,10.0007 C7.7615,10.0007 10.0005,7.7617 10.0005,5.0007 C10.0005,2.2387 7.7615,0.0007 5.0005,0.0007 L5.0005,0.0007 Z" id="Fill-1" fill="#00263E" mask="url(#mask-2)"></path>
+									</g>
+								</g>
+							</g>
+						</svg><span onclick="saveTheme('IE')" style="cursor: pointer;">Ireland</span></div>
+						<div class="country-wrap">						<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="opacity:0">
+							<defs>
+								<polygon id="path-1" points="0.0005 0.0007 10 0.0007 10 10 0.0005 10"></polygon>
+							</defs>
+							<g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+								<g id="Desktop-1440-/-Max-grid-1080px" transform="translate(-180.000000, -4290.000000)">
+									<g id="Group-3" transform="translate(180.000000, 4290.000000)">
+										<mask id="mask-2" fill="white">
+											<use xlink:href="#path-1"></use>
+										</mask>
+										<g id="Clip-2"></g>
+										<path d="M4.0215,7.7927 L1.8175,5.5897 L2.5245,4.8827 L4.0215,6.3787 L7.3675,3.0327 L8.0745,3.7397 L4.0215,7.7927 Z M5.0005,0.0007 C2.2385,0.0007 0.0005,2.2387 0.0005,5.0007 C0.0005,7.7617 2.2385,10.0007 5.0005,10.0007 C7.7615,10.0007 10.0005,7.7617 10.0005,5.0007 C10.0005,2.2387 7.7615,0.0007 5.0005,0.0007 L5.0005,0.0007 Z" id="Fill-1" fill="#00263E" mask="url(#mask-2)"></path>
+									</g>
+								</g>
+							</g>
+						</svg><span onclick="saveTheme('BE')" style="cursor: pointer;">Belgique</span></div>
+						<div class="country-wrap">						<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="opacity:0">
+							<defs>
+								<polygon id="path-1" points="0.0005 0.0007 10 0.0007 10 10 0.0005 10"></polygon>
+							</defs>
+							<g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+								<g id="Desktop-1440-/-Max-grid-1080px" transform="translate(-180.000000, -4290.000000)">
+									<g id="Group-3" transform="translate(180.000000, 4290.000000)">
+										<mask id="mask-2" fill="white">
+											<use xlink:href="#path-1"></use>
+										</mask>
+										<g id="Clip-2"></g>
+										<path d="M4.0215,7.7927 L1.8175,5.5897 L2.5245,4.8827 L4.0215,6.3787 L7.3675,3.0327 L8.0745,3.7397 L4.0215,7.7927 Z M5.0005,0.0007 C2.2385,0.0007 0.0005,2.2387 0.0005,5.0007 C0.0005,7.7617 2.2385,10.0007 5.0005,10.0007 C7.7615,10.0007 10.0005,7.7617 10.0005,5.0007 C10.0005,2.2387 7.7615,0.0007 5.0005,0.0007 L5.0005,0.0007 Z" id="Fill-1" fill="#00263E" mask="url(#mask-2)"></path>
+									</g>
+								</g>
+							</g>
+						</svg><span onclick="saveTheme('AT')" style="cursor: pointer;">Österreich</span></div>
+						<div class="country-wrap">						<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="opacity:0">
+							<defs>
+								<polygon id="path-1" points="0.0005 0.0007 10 0.0007 10 10 0.0005 10"></polygon>
+							</defs>
+							<g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+								<g id="Desktop-1440-/-Max-grid-1080px" transform="translate(-180.000000, -4290.000000)">
+									<g id="Group-3" transform="translate(180.000000, 4290.000000)">
+										<mask id="mask-2" fill="white">
+											<use xlink:href="#path-1"></use>
+										</mask>
+										<g id="Clip-2"></g>
+										<path d="M4.0215,7.7927 L1.8175,5.5897 L2.5245,4.8827 L4.0215,6.3787 L7.3675,3.0327 L8.0745,3.7397 L4.0215,7.7927 Z M5.0005,0.0007 C2.2385,0.0007 0.0005,2.2387 0.0005,5.0007 C0.0005,7.7617 2.2385,10.0007 5.0005,10.0007 C7.7615,10.0007 10.0005,7.7617 10.0005,5.0007 C10.0005,2.2387 7.7615,0.0007 5.0005,0.0007 L5.0005,0.0007 Z" id="Fill-1" fill="#00263E" mask="url(#mask-2)"></path>
+									</g>
+								</g>
+							</g>
+						</svg><span onclick="saveTheme('CH')" style="cursor: pointer;">Switzerland</span></div>
+						<div class="country-wrap">						<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="opacity:0">
+							<defs>
+								<polygon id="path-1" points="0.0005 0.0007 10 0.0007 10 10 0.0005 10"></polygon>
+							</defs>
+							<g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+								<g id="Desktop-1440-/-Max-grid-1080px" transform="translate(-180.000000, -4290.000000)">
+									<g id="Group-3" transform="translate(180.000000, 4290.000000)">
+										<mask id="mask-2" fill="white">
+											<use xlink:href="#path-1"></use>
+										</mask>
+										<g id="Clip-2"></g>
+										<path d="M4.0215,7.7927 L1.8175,5.5897 L2.5245,4.8827 L4.0215,6.3787 L7.3675,3.0327 L8.0745,3.7397 L4.0215,7.7927 Z M5.0005,0.0007 C2.2385,0.0007 0.0005,2.2387 0.0005,5.0007 C0.0005,7.7617 2.2385,10.0007 5.0005,10.0007 C7.7615,10.0007 10.0005,7.7617 10.0005,5.0007 C10.0005,2.2387 7.7615,0.0007 5.0005,0.0007 L5.0005,0.0007 Z" id="Fill-1" fill="#00263E" mask="url(#mask-2)"></path>
+									</g>
+								</g>
+							</g>
+						</svg><span onclick="saveTheme('FR-CA')" style="cursor: pointer;">Canada - Français</span></div>
+						<div class="country-wrap">						<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="opacity:0">
+							<defs>
+								<polygon id="path-1" points="0.0005 0.0007 10 0.0007 10 10 0.0005 10"></polygon>
+							</defs>
+							<g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+								<g id="Desktop-1440-/-Max-grid-1080px" transform="translate(-180.000000, -4290.000000)">
+									<g id="Group-3" transform="translate(180.000000, 4290.000000)">
+										<mask id="mask-2" fill="white">
+											<use xlink:href="#path-1"></use>
+										</mask>
+										<g id="Clip-2"></g>
+										<path d="M4.0215,7.7927 L1.8175,5.5897 L2.5245,4.8827 L4.0215,6.3787 L7.3675,3.0327 L8.0745,3.7397 L4.0215,7.7927 Z M5.0005,0.0007 C2.2385,0.0007 0.0005,2.2387 0.0005,5.0007 C0.0005,7.7617 2.2385,10.0007 5.0005,10.0007 C7.7615,10.0007 10.0005,7.7617 10.0005,5.0007 C10.0005,2.2387 7.7615,0.0007 5.0005,0.0007 L5.0005,0.0007 Z" id="Fill-1" fill="#00263E" mask="url(#mask-2)"></path>
+									</g>
+								</g>
+							</g>
+						</svg><span onclick="saveTheme('CA')" style="cursor: pointer;">Canada</span></div>
+						<div class="country-wrap">						<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="opacity:0">
+							<defs>
+								<polygon id="path-1" points="0.0005 0.0007 10 0.0007 10 10 0.0005 10"></polygon>
+							</defs>
+							<g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+								<g id="Desktop-1440-/-Max-grid-1080px" transform="translate(-180.000000, -4290.000000)">
+									<g id="Group-3" transform="translate(180.000000, 4290.000000)">
+										<mask id="mask-2" fill="white">
+											<use xlink:href="#path-1"></use>
+										</mask>
+										<g id="Clip-2"></g>
+										<path d="M4.0215,7.7927 L1.8175,5.5897 L2.5245,4.8827 L4.0215,6.3787 L7.3675,3.0327 L8.0745,3.7397 L4.0215,7.7927 Z M5.0005,0.0007 C2.2385,0.0007 0.0005,2.2387 0.0005,5.0007 C0.0005,7.7617 2.2385,10.0007 5.0005,10.0007 C7.7615,10.0007 10.0005,7.7617 10.0005,5.0007 C10.0005,2.2387 7.7615,0.0007 5.0005,0.0007 L5.0005,0.0007 Z" id="Fill-1" fill="#00263E" mask="url(#mask-2)"></path>
+									</g>
+								</g>
+							</g>
+						</svg><span onclick="saveTheme('MX')" style="cursor: pointer;">México</span></div>
+						<div class="country-wrap">						<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="opacity:0">
+							<defs>
+								<polygon id="path-1" points="0.0005 0.0007 10 0.0007 10 10 0.0005 10"></polygon>
+							</defs>
+							<g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+								<g id="Desktop-1440-/-Max-grid-1080px" transform="translate(-180.000000, -4290.000000)">
+									<g id="Group-3" transform="translate(180.000000, 4290.000000)">
+										<mask id="mask-2" fill="white">
+											<use xlink:href="#path-1"></use>
+										</mask>
+										<g id="Clip-2"></g>
+										<path d="M4.0215,7.7927 L1.8175,5.5897 L2.5245,4.8827 L4.0215,6.3787 L7.3675,3.0327 L8.0745,3.7397 L4.0215,7.7927 Z M5.0005,0.0007 C2.2385,0.0007 0.0005,2.2387 0.0005,5.0007 C0.0005,7.7617 2.2385,10.0007 5.0005,10.0007 C7.7615,10.0007 10.0005,7.7617 10.0005,5.0007 C10.0005,2.2387 7.7615,0.0007 5.0005,0.0007 L5.0005,0.0007 Z" id="Fill-1" fill="#00263E" mask="url(#mask-2)"></path>
+									</g>
+								</g>
+							</g>
+						</svg><span onclick="saveTheme('DE')" style="cursor: pointer;">Deutschland</span></div>
+						<div class="country-wrap">						<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="opacity:0">
+							<defs>
+								<polygon id="path-1" points="0.0005 0.0007 10 0.0007 10 10 0.0005 10"></polygon>
+							</defs>
+							<g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+								<g id="Desktop-1440-/-Max-grid-1080px" transform="translate(-180.000000, -4290.000000)">
+									<g id="Group-3" transform="translate(180.000000, 4290.000000)">
+										<mask id="mask-2" fill="white">
+											<use xlink:href="#path-1"></use>
+										</mask>
+										<g id="Clip-2"></g>
+										<path d="M4.0215,7.7927 L1.8175,5.5897 L2.5245,4.8827 L4.0215,6.3787 L7.3675,3.0327 L8.0745,3.7397 L4.0215,7.7927 Z M5.0005,0.0007 C2.2385,0.0007 0.0005,2.2387 0.0005,5.0007 C0.0005,7.7617 2.2385,10.0007 5.0005,10.0007 C7.7615,10.0007 10.0005,7.7617 10.0005,5.0007 C10.0005,2.2387 7.7615,0.0007 5.0005,0.0007 L5.0005,0.0007 Z" id="Fill-1" fill="#00263E" mask="url(#mask-2)"></path>
+									</g>
+								</g>
+							</g>
+						</svg><span onclick="saveTheme('NL')" style="cursor: pointer;">Nederland</span></div>
+						<div class="country-wrap">						<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="opacity:0">
+							<defs>
+								<polygon id="path-1" points="0.0005 0.0007 10 0.0007 10 10 0.0005 10"></polygon>
+							</defs>
+							<g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+								<g id="Desktop-1440-/-Max-grid-1080px" transform="translate(-180.000000, -4290.000000)">
+									<g id="Group-3" transform="translate(180.000000, 4290.000000)">
+										<mask id="mask-2" fill="white">
+											<use xlink:href="#path-1"></use>
+										</mask>
+										<g id="Clip-2"></g>
+										<path d="M4.0215,7.7927 L1.8175,5.5897 L2.5245,4.8827 L4.0215,6.3787 L7.3675,3.0327 L8.0745,3.7397 L4.0215,7.7927 Z M5.0005,0.0007 C2.2385,0.0007 0.0005,2.2387 0.0005,5.0007 C0.0005,7.7617 2.2385,10.0007 5.0005,10.0007 C7.7615,10.0007 10.0005,7.7617 10.0005,5.0007 C10.0005,2.2387 7.7615,0.0007 5.0005,0.0007 L5.0005,0.0007 Z" id="Fill-1" fill="#00263E" mask="url(#mask-2)"></path>
+									</g>
+								</g>
+							</g>
+						</svg><span onclick="saveTheme('FR')" style="cursor: pointer;">France</span></div>
+						<div class="country-wrap">						<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="opacity:0">
+							<defs>
+								<polygon id="path-1" points="0.0005 0.0007 10 0.0007 10 10 0.0005 10"></polygon>
+							</defs>
+							<g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+								<g id="Desktop-1440-/-Max-grid-1080px" transform="translate(-180.000000, -4290.000000)">
+									<g id="Group-3" transform="translate(180.000000, 4290.000000)">
+										<mask id="mask-2" fill="white">
+											<use xlink:href="#path-1"></use>
+										</mask>
+										<g id="Clip-2"></g>
+										<path d="M4.0215,7.7927 L1.8175,5.5897 L2.5245,4.8827 L4.0215,6.3787 L7.3675,3.0327 L8.0745,3.7397 L4.0215,7.7927 Z M5.0005,0.0007 C2.2385,0.0007 0.0005,2.2387 0.0005,5.0007 C0.0005,7.7617 2.2385,10.0007 5.0005,10.0007 C7.7615,10.0007 10.0005,7.7617 10.0005,5.0007 C10.0005,2.2387 7.7615,0.0007 5.0005,0.0007 L5.0005,0.0007 Z" id="Fill-1" fill="#00263E" mask="url(#mask-2)"></path>
+									</g>
+								</g>
+							</g>
+						</svg><span onclick="saveTheme('UK')" style="cursor: pointer;">United Kingdom</span></div>
+						<div class="country-wrap">						<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="opacity:1">
+							<defs>
+								<polygon id="path-1" points="0.0005 0.0007 10 0.0007 10 10 0.0005 10"></polygon>
+							</defs>
+							<g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+								<g id="Desktop-1440-/-Max-grid-1080px" transform="translate(-180.000000, -4290.000000)">
+									<g id="Group-3" transform="translate(180.000000, 4290.000000)">
+										<mask id="mask-2" fill="white">
+											<use xlink:href="#path-1"></use>
+										</mask>
+										<g id="Clip-2"></g>
+										<path d="M4.0215,7.7927 L1.8175,5.5897 L2.5245,4.8827 L4.0215,6.3787 L7.3675,3.0327 L8.0745,3.7397 L4.0215,7.7927 Z M5.0005,0.0007 C2.2385,0.0007 0.0005,2.2387 0.0005,5.0007 C0.0005,7.7617 2.2385,10.0007 5.0005,10.0007 C7.7615,10.0007 10.0005,7.7617 10.0005,5.0007 C10.0005,2.2387 7.7615,0.0007 5.0005,0.0007 L5.0005,0.0007 Z" id="Fill-1" fill="#00263E" mask="url(#mask-2)"></path>
+									</g>
+								</g>
+							</g>
+						</svg><span onclick="saveTheme('US')" style="cursor: pointer;color:#00263E;font-weight:600;">United States</span></div>
+						<div class="blue-d-arrow"></div>
+					</div>
+				</div>
+			</div>
+			<div class="xs-12 md-6 col flex copyright footer__social-links">
+				<a href="https://www.facebook.com/SamsaraHQ/" target="_blank"><img src="//images.ctfassets.net/bx9krvy0u3sx/6S0h2nWn8P6NkcSYIHTxVq/5e069c5335024d3ebb593632f53b0b2a/facebook_1.svg"></a>
+				<a href="https://twitter.com/Samsara" target="_blank"><img src="//images.ctfassets.net/bx9krvy0u3sx/6LFtWpa8fmAp7p4qz7XTVv/92aeb5085fcb886dcc480cf114073e90/twitter_1.svg"></a>
+				<a href="https://www.linkedin.com/company/samsara/" target="_blank"><img src="//images.ctfassets.net/bx9krvy0u3sx/5r4wW54vbwFnOHjQARIvqU/c3dba386a9149d63f48687f09533bb60/linkedin_1.svg"></a>
+				<a href="https://www.youtube.com/c/SamsaraHQ" target="_blank"><img src="//images.ctfassets.net/bx9krvy0u3sx/5D5vF60LvjEWog00v9078Y/a3d7b34a96326c88d91c1de84d39bca1/youtube_1.svg"></a>
+				<a href="https://www.instagram.com/lifeatsamsara/" target="_blank"><img src="//images.ctfassets.net/bx9krvy0u3sx/6Nkfjm4SoWsT2GG40B8uFn/47b98dd68824c2249fc7113d0c2e0db3/instagram_1.svg"></a>
+			</div>
+			<div class="xs-12 md-6 col copyright space-top-0 text-left" style="opacity: 0.6;">
+			© 2021 Samsara Inc.
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col sm-6 md-4">
+				<div class="title"><a href="/products">Products</a></div>
+				<ul class="list-flat">
+					<li><a href="/products/safety/dash-cam">AI Dash Cams</a></li>
+					<li><a href="/products/site-visibility">Site Visibility</a></li>
+					<li><a href="/products/telematics">Vehicle Telematics</a></li>
+					<li><a href="/products/telematics/electric-vehicles">Electric Vehicles</a></li>
+					<li><a href="/products/apps-and-workflows/eld-compliance">Compliance &amp; ELD</a></li>
+					<li><a href="/products/apps-and-workflows/document-management">Documents &amp; Messaging</a></li>
+					<li><a href="/products/equipment-monitoring">Equipment Monitoring</a></li>
+					<li><a href="/products/equipment-monitoring/trailer-tracking">Trailer Tracking</a></li>
+					<li><a href="/products/equipment-monitoring/condition-monitoring">Condition Monitoring</a></li>
+					<li><a href="/products/equipment-monitoring/advanced-alerting">Advanced Alerting</a></li>
+					<li><a href="/products">Explore More Products</a></li>
+				</ul>
+			</div>
+			<div class="col sm-6 md-4">
+				<div class="title"><a href="/products/telematics">Industries</a></div>
+				<ul class="list-flat">
+					<li><a href="/industries/logistics">Transportation &amp; Logistics</a></li>
+					<li><a href="/industries/food-and-beverage">Food &amp; Beverage</a></li>
+					<li><a href="/industries/construction">Construction</a></li>
+					<li><a href="/industries/state-local-government">Government</a></li>
+					<li><a href="/industries/k-12">K-12 Transportation</a></li>
+					<li><a href="/industries/higher-education">Higher Education</a></li>
+					<li><a href="/industries/passenger-transit">Passenger Transit</a></li>
+					<li><a href="/industries/field-services">Field Service Fleets</a></li>
+					<li><a href="/industries/utilities">Utilities</a></li>
+					<li><a href="/industries/oil-gas">Oil &amp; Gas</a></li>
+					<li><a href="/industries/water-wastewater">Water &amp; Wastewater</a></li>
+				</ul>
+			</div>
+			<div class="col sm-6 md-4">
+				<div class="title"><a href="/solutions/efficiency">Solutions</a></div>
+				<ul class="list-flat">
+					<li><a href="/solutions/efficiency">Efficiency</a></li>
+					<li><a href="/solutions/safety">Safety</a></li>
+					<li><a href="/solutions/compliance">Compliance</a></li>
+					<li><a href="/solutions/security">Security</a></li>
+					<li><a href="/solutions/sustainability">Sustainability</a></li>
+					<li><a href="/solutions/customer-experience">Customer Experience</a></li>
+				</ul>
+			</div>
+			<div class="col sm-6 md-4">
+				<div class="title"><a href="/company/about">Company</a></div>
+				<ul class="list-flat">
+					<li><a href="/company/about">About</a></li>
+					<li><a href="/company/careers">Careers</a></li>
+					<li><a href="/company/diversity">Diversity</a></li>
+					<li><a href="/company/mission/sustainability">Sustainability</a></li>
+					<li><a href="/company/contact">Contact</a></li>
+					<li><a href="/resources/partner-programs">Partner Programs</a></li>
+					<li><a href="/company/news">News</a></li>
+					<li><a href="/blog/">Blog</a></li>
+					<li><a href="/legal/privacy">Privacy</a></li>
+					<li><a href="/legal/security">Security</a></li>
+				</ul>
+			</div>
+			<div class="col sm-6 md-4">
+				<div class="title"><a href="/docs">Resources</a></div>
+				<ul class="list-flat">
+					<li><a href="/customers/">Case Studies</a></li>
+					<li><a href="/referrals">Customer Referral Program</a></li>
+					<li><a href="/guides">Guides</a></li>
+					<li><a href="/resources/roi-calculator">ROI Calculator</a></li>
+					<li><a href="/resources/tour">Product Tours</a></li>
+					<li><a href="/docs">Resource Docs</a></li>
+					<li><a href="/support/developers">Developers</a></li>
+					<li><a href="/developers/changelog">API Changelog</a></li>
+					<li><a href="/api">Developer APIs</a></li>
+					<li><a href="/resources/marketplace">App Marketplace</a></li>
+				</ul>
+			</div>
+			<div class="col sm-6 md-4">
+				<div class="title"><a href="https://kb.samsara.com">Support &amp; Legal</a></div>
+				<ul class="list-flat">
+					<li><a href="/support/privacy">Privacy Policy</a></li>
+					<li><a href="/legal/candidate-privacy-notice">Candidate Privacy Notice</a></li>
+					<li><a href="/legal/website-terms-of-service">Website Terms of Service</a></li>
+					<li><a href="/legal/cookie-policy">Cookie Policy</a></li>
+					<li><a href="https://kb.samsara.com">Knowledge Base</a></li>
+					<li><a href="/support/hardware-warranty">Hardware Warranty</a></li>
+					<li><a href="/legal/platform-terms-of-service">Product Terms of Service</a></li>
+					<li><a href="/legal/hosted-software-sla">Hosted Software SLA</a></li>
+					<li><a href="/legal/partner-code-of-conduct">Partner Code of Conduct</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</footer>	</div>
+	<script src="/app/js/cookies.js?v=575"></script>
+	<script src="/app/js/jquery-3.3.1.min.js?v=575"></script>
+	<script src="https://code.jquery.com/jquery-migrate-3.3.1.js"></script>
+	<script src="/app/js/bundle.js?v=575"></script>
+	<script src="/app/js/nav.js?v=575"></script>
+	<script async type="text/javascript" src="https://cdn.ywxi.net/js/1.js"></script>
+</body>
+
+</html>
